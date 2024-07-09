@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applicants Dashboard</title>
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="/static/css/sb-admin-2.css" rel="stylesheet">
+    <!-- DataTables CSS -->
+    <link href="/static/css/jquery.dataTables.css" rel="stylesheet">
+    <style>
+        /* Add border to DataTable wrapper */
+        #csvData_wrapper {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        /* Common styles */
+        .alert {
+            margin-bottom: 15px;
+        }
+        .graph-container {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .graph-image {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        /* Decision tree container styles */
+        #decisionTreeContainer {
+            text-align: center;
+        }
+        #decisionTreeContainer img {
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+        /* Style for disabled button */
+        .disabled-btn {
+            background-color: gray;
+            color: #ccc;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">CART <sup></sup></div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Rank student by course Button -->
+                        <button type="button" class="btn btn-primary mr-3" onclick="window.location.href='/blank.html';">
+                            Back
+                        </button>
+                        <!-- Your HTML content -->
+                        <button type="button" class="btn btn-success mr-3" id="showBarGraphBtn">Bar Graph</button>
+                        <button type="button" class="btn btn-info mr-3" id="decisionTreeBtn">Decision Tree Classifier</button>
+                    </ul>
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div id="page-content">
+                    <!-- Content here -->
+                </div>
+                <!-- End Page Content -->
+
+                <!-- Modal -->
+                <div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Modal -->
+
+                <!-- Add this container for displaying the decision tree image -->
+                <div class="graph-container" id="decisionTreeContainer"></div>
+
+                <script>
+                    document.getElementById('decisionTreeBtn').addEventListener('click', function() {
+                        // Make an AJAX request to Flask to generate the decision tree image
+                        fetch('/serve_decision_tree', {
+                            method: 'GET'
+                        })
+                        .then(response => {
+                            if (response.ok) {
+                                return response.blob();
+                            }
+                            throw new Error('Network response was not ok.');
+                        })
+                        .then(blob => {
+                            // Create a URL for the blob
+                            var url = URL.createObjectURL(blob);
+                            
+                            // Create an image element
+                            var img = document.createElement('img');
+                            img.src = url;
+
+                            // Add styles to the image (optional)
+                            img.style.maxWidth = '100%';
+                            img.style.height = 'auto';
+                            img.style.display = 'block';
+                            img.style.margin = 'auto';
+
+                            // Add the image to the decision tree container
+                            var decisionTreeContainer = document.getElementById('decisionTreeContainer');
+                            decisionTreeContainer.innerHTML = '';
+                            decisionTreeContainer.appendChild(img);
+                        })
+                        .catch(error => {
+                            console.error('Error:', error);
+                            // Display error message if something went wrong
+                            var decisionTreeContainer = document.getElementById('decisionTreeContainer');
+                            decisionTreeContainer.innerHTML = '<div class="alert alert-danger" role="alert">Error: ' + error.message + '</div>';
+                        });
+                    });
+                </script>
+            </div>
+
+            <div id="trainModelMessage"></div>
+            <!-- End of Main Content -->
+
+           
+
+            <!-- Script to load CSV data -->
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+
+            <style>
+                .graph-container {
+                    display: flex;
+                    justify-content: center; /* Horizontally center the container */
+                    margin-top: 20px; /* Add some top margin for spacing */
+                }
+            
+                /* Style the image */
+                .graph-image {
+                    max-width: 80%; /* Limit the maximum width */
+                    border: 1px solid #ccc; /* Add a border */
+                    border-radius: 3px; /* Add some border radius */
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+                }
+            </style>
+
+            <script>
+                document.getElementById('showBarGraphBtn').addEventListener('click', function() {
+                    // Make an AJAX request to Flask to serve the bar plot image
+                    var xhr = new XMLHttpRequest();
+                    xhr.open('GET', '/serve_bar_plot', true);
+                    xhr.responseType = 'blob';
+            
+                    xhr.onload = function() {
+                        if (this.status === 200) {
+                            var blob = this.response;
+                            var url = window.URL || window.webkitURL;
+                            var imageUrl = url.createObjectURL(blob);
+                            
+                            // Create a container div
+                            var container = document.createElement('div');
+                            container.classList.add('graph-container');
+            
+                            // Create and style the bar plot image
+                            var img = document.createElement('img');
+                            img.src = imageUrl;
+                            img.classList.add('graph-image');
+            
+                            // Append the image to the container
+                            container.appendChild(img);
+            
+                            // Append the container to the document body
+                            document.getElementById('page-content').appendChild(container);
+                        }
+                    };
+            
+                    xhr.send();
+                });
+            </script>
+
+            <script>
+                document.getElementById('trainModelBtn').addEventListener('click', function() {
+                    fetch('/train_model', {
+                        method: 'POST'
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            document.getElementById('trainModelMessage').innerHTML = '<div class="alert alert-success" role="alert">Model trained successfully!</div>';
+                        } else {
+                            document.getElementById('trainModelMessage').innerHTML = '<div class="alert alert-danger" role="alert">Error: ' + data.error + '</div>';
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        document.getElementById('trainModelMessage').innerHTML = '<div class="alert alert-danger" role="alert">Error: ' + error.message + '</div>';
+                    });
+                });
+            </script>
+
+            
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+
+    <!-- Script to load CSV data -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+
+    <div id="crossValidationResult"></div>
+
+        <!-- Your existing HTML content -->
+        <script>
+            document.getElementById('crossValidationResult').addEventListener('click', function() {
+                // Trigger download of cross-validation results
+                fetch('/perform_cross_validation')
+                    .then(response => {
+                        if (response.ok) {
+                            return response.blob();
+                        }
+                        throw new Error('Network response was not ok.');
+                    })
+                    .then(blob => {
+                        // Create a link element to trigger download
+                        const downloadLink = document.createElement('a');
+                        downloadLink.href = URL.createObjectURL(blob);
+                        downloadLink.download = 'cross_validation_results.csv';
+                        downloadLink.click();
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        // Handle error
+                    });
+            });
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applicants Dashboard</title>
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="/static/css/sb-admin-2.css" rel="stylesheet">
+    <!-- DataTables CSS -->
+    <link href="/static/css/jquery.dataTables.css" rel="stylesheet">
+    <style>
+        /* Add border to DataTable wrapper */
+        #csvData_wrapper {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        /* Pagination style */
+        #csvData_paginate {
+            margin-top: 20px;
+        }
+
+        /* Pagination buttons style */
+        #csvData_paginate .paginate_button {
+            padding: 0.5rem 0.75rem;
+            margin-left: 2px;
+            font-size: 0.875rem;
+            line-height: 1.5;
+            border-radius: 0.25rem;
+            color: #007bff;
+            background-color: #fff;
+            border-color: #007bff;
+            cursor: pointer;
+        }
+
+        /* Current page button style */
+        #csvData_paginate .paginate_button.current {
+            color: #fff;
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        /* Pagination button hover style */
+        #csvData_paginate .paginate_button:hover {
+            color: #0056b3;
+            background-color: #e9ecef;
+            border-color: #dee2e6;
+        }
+
+        /* Table layout */
+        #csvData {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        #csvData thead th,
+        #csvData tbody td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+
+        #csvData thead th {
+            background-color: #f8f9fa;
+        }
+
+        #csvData tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #csvData tbody tr:hover {
+            background-color: #e2e6ea;
+        }
+    </style>
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">CART <sup></sup></div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Rank student by course Button -->
+                        <button type="button" class="btn btn-primary mr-3" onclick="window.location.href='/blank.html';">
+                            Back
+                        </button>
+                        <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                        <li class="nav-item dropdown no-arrow d-sm-none">
+                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-search fa-fw"></i>
+                            </a>
+                            <!-- Dropdown - Messages -->
+                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                                aria-labelledby="searchDropdown">
+                                <form class="form-inline mr-auto w-100 navbar-search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control bg-light border-0 small"
+                                            placeholder="Search for..." aria-label="Search"
+                                            aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button">
+                                                <i class="fas fa-search fa-sm"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+                    <!-- Table to display CSV data -->
+                    <table id="csvData" class="display">
+                        <thead>
+                            <!-- DataTable headers will be populated dynamically -->
+                        </thead>
+                        <tbody>
+                            <!-- DataTable body will be populated dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Modal -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{ url_for('static', filename='js/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+
+    <!-- Script to load CSV data -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+    
+    <script>
+        function loadFailedApplicantsData() {
+            $.ajax({
+                url: "/failed_applicants1",
+                type: "GET",
+                success: function(data) {
+                    let lines = data.split('\n');
+                    let headers = lines[0].split(',');
+    
+                    let dataSet = [];
+    
+                    // Populate table body
+                    for (let i = 1; i < lines.length; i++) {
+                        let row = lines[i].split(',');
+                        dataSet.push(row);
+                    }
+    
+                    // Initialize DataTable
+                    $('#csvData').DataTable({
+                        data: dataSet,
+                        columns: headers.map(header => ({
+                            title: header
+                        }))
+                    });
+                },
+                error: function(xhr, status, error) {
+                    console.error(xhr.responseText);
+                }
+            });
+        }
+    
+        $(document).ready(function() {
+            loadFailedApplicantsData(); // Trigger the function when the page is loaded
+        });
+    </script>
+
+    
+</body>
+
+</html>

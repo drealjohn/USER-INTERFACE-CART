@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applicants Dashboard</title>
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/sb-admin-2.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/jquery.dataTables.css') }}" rel="stylesheet">
+</head>
+
+<body id="page-top">
+
+    <div id="wrapper">
+
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">CART <sup></sup></div>
+            </a>
+            <hr class="sidebar-divider my-0">
+            <hr class="sidebar-divider">
+        </ul>
+
+        <div id="content-wrapper" class="d-flex flex-column">
+            <div id="content">
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-primary mr-3" onclick="rankStudentsByCourse()">
+                                Rank Student by course
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-danger" onclick="cleanData()">
+                                Clean Data
+                            </button>
+                            <button type="button" class="btn btn-danger ml-1" onclick="window.location.href='/upload'">
+                                Upload GWA
+                            </button>
+                        </li>
+                        <li class="nav-item dropdown no-arrow d-sm-none">
+                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-search fa-fw"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                                aria-labelledby="searchDropdown">
+                                <form class="form-inline mr-auto w-100 navbar-search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control bg-light border-0 small"
+                                            placeholder="Search for..." aria-label="Search"
+                                            aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button">
+                                                <i class="fas fa-search fa-sm"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="wrapper">
+
+                    <div id="content-wrapper" class="d-flex flex-column">
+                        <div id="content">
+                            <div class="container-fluid">
+                                <table id="csvData" class="display">
+                                    <thead>
+                                        <!-- DataTable headers will be populated dynamically -->
+                                    </thead>
+                                    <tbody>
+                                        <!-- DataTable body will be populated dynamically -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+            <div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="cleanedData">
+            <!-- Cleaned data will be displayed here -->
+        </div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='js/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+
+
+    <script>
+        // Function to load CSV data into DataTable
+        function loadData() {
+            $.ajax({
+                url: "/view_applicants",
+                type: "GET",
+                success: function(data) {
+                    let lines = data.split('\n');
+                    let headers = lines[0].split(',');
+
+                    let dataSet = [];
+
+                    // Populate table body
+                    for (let i = 1; i < lines.length; i++) {
+                        let row = lines[i].split(',');
+                        dataSet.push(row);
+                    }
+
+                    // Initialize DataTable with pagination and search
+                    $('#csvData').DataTable({
+                        data: dataSet,
+                        columns: headers.map(header => ({ title: header })),
+                        "pageLength": 10, // Number of entries per page
+                        "searching": true // Enable search functionality
+                    });
+                },
+                error: function(xhr, status, error) {
+                    console.error(xhr.responseText);
+                }
+            });
+        }
+
+        // Trigger the function when the page is loaded
+        $(document).ready(function() {
+            loadData();
+        });
+    </script>
+
+    <script>
+        function cleanData() {
+            $.ajax({
+                type: "POST",
+                url: "/clean_data1",
+                success: function(response) {
+                    alert(response.message);
+                    let cleanedDataTable = '<table id="csvData" class="display table-bordered"><thead><tr>';
+                    
+                    // Specify the desired order of columns
+                    const columnOrder = ['Name', 'University', 'Physical Fitness Test', 'Entrance Exam', 'First Chosen Program', 'Second Chosen Program'];
+                    
+                    // Add table headers based on the specified order
+                    columnOrder.forEach(function(column) {
+                        cleanedDataTable += '<th>' + column + '</th>';
+                    });
+    
+                    cleanedDataTable += '</tr></thead><tbody>';
+    
+                    // Add table rows based on the specified order
+                    $.each(response.cleaned_data, function(index, row) {
+                        cleanedDataTable += '<tr>';
+                        columnOrder.forEach(function(column) {
+                            cleanedDataTable += '<td>' + row[column] + '</td>';
+                        });
+                        cleanedDataTable += '</tr>';
+                    });
+    
+                    cleanedDataTable += '</tbody></table>';
+    
+                    // Replace DataTable with cleaned data
+                    $('#content .container-fluid').html(cleanedDataTable);
+                    
+                    // Initialize DataTable
+                    $('#csvData').DataTable({
+                        "pageLength": 10,
+                        "searching": true
+                    });
+                },
+                error: function(error) {
+                    console.log(error);
+                    alert("An error occurred while cleaning the data.");
+                }
+            });
+        }
+    </script>
+    <script>
+        function rankStudentsByCourse() {
+            // Make an AJAX request to Flask endpoint '/rank_students_by_course1'
+            $.ajax({
+                url: '/rank_students_by_course1',
+                type: 'POST',
+                contentType: 'application/json',
+                success: function(response) {
+                    // Handle success response here
+                    console.log(response);
+                    alert(response.message); // Show success message
+                },
+                error: function(xhr, status, error) {
+                    // Handle error response here
+                    console.error(xhr.responseText);
+                    alert("An error occurred: " + xhr.responseText); // Show error message
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

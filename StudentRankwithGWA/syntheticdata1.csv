@@ -1,0 +1,808 @@
+Name,University,Physical Fitness Test,Entrance Exam,First Chosen Program,Second Chosen Program
+Camila Wood,Stanford University USA,a,100,BS Information Technology,BS Biology
+Alexander Thompson,Stanford University USA,1,100,BS Biology,BS Accountancy
+Liam Taylor,Harvard University USA,1,100,BS Accountancy,BS Civil Engineering
+Evelyn Jenkins,Stanford University USA,1,99,BS Civil Engineering,BS Information Technology
+Michael Jackson,Harvard University USA,a,99,BS Information Technology,BS Biology
+Chloe Moore,Stanford University USA,1,98,BS Biology,BS Accountancy
+Nicholas Clark,Harvard University USA,ADS,98,BS Accountancy,BS Civil Engineering
+Olivia Richardson,Stanford University USA,1,97,BS Civil Engineering,BS Information Technology
+Aiden Rivera,Stanford University USA,1,97,BS Information Technology,BS Biology
+Harper Turner,Harvard University USA,1,97,BS Biology,BS Accountancy
+Madison Lee,Stanford University USA,1,97,BS Accountancy,BS Civil Engineering
+Carter Hall,Harvard University USA,1,97,BS Civil Engineering,BS Information Technology
+Mia Thomas,Harvard University USA,1,97,BS Information Technology,BS Biology
+Lucas Evans,University of Oxford UK,1,96,BS Biology,BS Accountancy
+Abigail Bailey,Harvard University USA,S,95,BS Accountancy,BS Civil Engineering
+Joseph Diaz,Harvard University USA,1,95,BS Civil Engineering,BS Information Technology
+William Walker,University of Cambridge UK,1,95,BS Information Technology,BS Biology
+Andrew Anderson,University of Oxford UK,1,95,BS Biology,BS Accountancy
+Sophia King,Harvard University USA,1,94,BS Accountancy,BS Civil Engineering
+Avery Gonzalez,Harvard University USA,1,92,BS Civil Engineering,BS Information Technology
+Lily Davis,Harvard University USA,1,92,BS Information Technology,BS Biology
+Scarlett Cooper,Stanford University USA,1,92,BS Biology,BS Accountancy
+Grace Reed,Stanford University USA,SD,92,BS Accountancy,BS Civil Engineering
+Matthew Johnson,Harvard University USA,1,92,BS Civil Engineering,BS Information Technology
+Jackson Baker,Stanford University USA,1,92,BS Information Technology,BS Biology
+Ella Martinez,Harvard University USA,1,92,BS Biology,BS Accountancy
+Henry Perez,Stanford University USA,1,91,BS Accountancy,BS Civil Engineering
+Ava White,Stanford University USA,1,91,BS Civil Engineering,BS Information Technology
+Gabriel Miller,Stanford University USA,D,90,BS Information Technology,BS Biology
+Mia Brown,Stanford University USA,1,90,BS Biology,BS Accountancy
+Layla Garcia,Harvard University USA,1,90,BS Accountancy,BS Civil Engineering
+Emma Stewart,Stanford University USA,1,90,BS Civil Engineering,BS Information Technology
+Daniel Adams,University of Oxford UK,1,90,BS Information Technology,BS Biology
+Logan Smith,Stanford University USA,1,90,BS Biology,BS Accountancy
+James Harris,Stanford University USA,1,89,BS Accountancy,BS Civil Engineering
+Benjamin Martin,Harvard University USA,1,89,BS Civil Engineering,BS Information Technology
+Elijah Robinson,Harvard University USA,1,89,BS Information Technology,BS Biology
+Zoey Hayes,Harvard University USA,1,89,BS Biology,BS Accountancy
+Samuel Phillips,Harvard University USA,S,89,BS Accountancy,BS Civil Engineering
+Emily Williams,Harvard University USA,1,89,BS Civil Engineering,BS Information Technology
+Sofia Lewis,Stanford University USA,1,89,BS Information Technology,BS Biology
+Amelia Young,University of Oxford UK,1,89,BS Biology,BS Accountancy
+Charlotte Wilson,Harvard University USA,1,88,BS Accountancy,BS Civil Engineering
+Jack Scott,Harvard University USA,1,88,BS Civil Engineering,BS Information Technology
+Noah Parker,Harvard University USA,1,88,BS Information Technology,BS Biology
+David Rodriguez,Harvard University USA,1,88,BS Biology,BS Accountancy
+Aria Nelson,Stanford University USA,1,87,BS Accountancy,BS Civil Engineering
+Ethan Carter,Harvard University USA,1,87,BS Civil Engineering,BS Information Technology
+Oliver Green,Harvard University USA,A,87,BS Information Technology,BS Biology
+Harper Jones,Harvard University USA,1,87,BS Biology,BS Accountancy
+David Martin,Stanford University USA,1,86,BS Accountancy,BS Civil Engineering
+Avery Green,Stanford University USA,1,86,BS Civil Engineering,BS Information Technology
+Aiden Wood,Harvard University USA,1,86,BS Information Technology,BS Biology
+Jackson Anderson,Harvard University USA,1,85,BS Biology,BS Accountancy
+Scarlett Lee,Stanford University USA,1,85,BS Accountancy,BS Civil Engineering
+Lucas Johnson,Stanford University USA,1,85,BS Civil Engineering,BS Information Technology
+Madison Davis,Massachusetts Institute of Technology (MIT) USA,1,84,BS Information Technology,BS Biology
+Nicholas Jones,Harvard University USA,1,84,BS Biology,BS Accountancy
+Evelyn Stewart,Stanford University USA,1,82,BS Accountancy,BS Civil Engineering
+Benjamin Richardson,Stanford University USA,1,82,BS Civil Engineering,BS Information Technology
+Charlotte Walker,Harvard University USA,1,81,BS Information Technology,BS Biology
+Samuel Scott,Harvard University USA,1,80,BS Biology,BS Accountancy
+William Rodriguez,Stanford University USA,1,80,BS Accountancy,BS Civil Engineering
+Emily Carter,Harvard University USA,1,79,BS Civil Engineering,BS Information Technology
+Carter Hall,Harvard University USA,1,79,BS Information Technology,BS Biology
+Alexander Moore,Harvard University USA,1,78,BS Biology,BS Accountancy
+Emma Wilson,Massachusetts Institute of Technology (MIT) USA,1,78,BS Accountancy,BS Civil Engineering
+Mia Young,Harvard University USA,1,77,BS Civil Engineering,BS Information Technology
+Aria Evans,Stanford University USA,1,76,BS Information Technology,BS Biology
+Layla Phillips,Harvard University USA,1,76,BS Biology,BS Accountancy
+Matthew Lewis,Massachusetts Institute of Technology (MIT) USA,1,75,BS Accountancy,BS Civil Engineering
+Noah Jenkins,Harvard University USA,1,75,BS Civil Engineering,BS Information Technology
+Camila Hayes,Harvard University USA,1,75,BS Information Technology,BS Biology
+Logan Turner,Stanford University USA,1,75,BS Biology,BS Accountancy
+Lily Miller,Harvard University USA,1,74,BS Accountancy,BS Civil Engineering
+Mia Perez,Harvard University USA,1,74,BS Civil Engineering,BS Information Technology
+Zoey Rivera,Stanford University USA,1,74,BS Information Technology,BS Biology
+Sophia King,Stanford University USA,1,74,BS Biology,BS Accountancy
+Grace Cooper,Harvard University USA,1,74,BS Accountancy,BS Civil Engineering
+Chloe Williams,Stanford University USA,1,73,BS Civil Engineering,BS Information Technology
+Ella Bailey,Harvard University USA,1,73,BS Information Technology,BS Biology
+Harper Nelson,Stanford University USA,1,73,BS Biology,BS Accountancy
+Henry Baker,Harvard University USA,1,73,BS Accountancy,BS Civil Engineering
+Andrew Gonzalez,Harvard University USA,1,72,BS Civil Engineering,BS Information Technology
+Amelia Harris,Stanford University USA,1,72,BS Information Technology,BS Biology
+Abigail Robinson,Harvard University USA,1,72,BS Biology,BS Accountancy
+Harper Jackson,Harvard University USA,1,72,BS Accountancy,BS Civil Engineering
+Michael White,Massachusetts Institute of Technology (MIT) USA,1,72,BS Civil Engineering,BS Information Technology
+Daniel Brown,University of Oxford UK,1,72,BS Information Technology,BS Biology
+Elijah Thomas,Harvard University USA,1,71,BS Biology,BS Accountancy
+Liam Thompson,Harvard University USA,1,71,BS Accountancy,BS Civil Engineering
+Joseph Martinez,Harvard University USA,1,70,BS Civil Engineering,BS Information Technology
+James Taylor,Massachusetts Institute of Technology (MIT) USA,1,70,BS Information Technology,BS Biology
+Ava Clark,Massachusetts Institute of Technology (MIT) USA,1,70,BS Biology,BS Accountancy
+Gabriel Diaz,Harvard University USA,1,69,BS Accountancy,BS Civil Engineering
+Oliver Parker,California Institute of Technology (Caltech) USA,1,69,BS Civil Engineering,BS Information Technology
+Olivia Smith,Harvard University USA,1,67,BS Information Technology,BS Biology
+Ethan Adams,Harvard University USA,1,67,BS Biology,BS Accountancy
+Sofia Garcia,Harvard University USA,1,67,BS Accountancy,BS Civil Engineering
+Jack Reed,University of Oxford UK,1,67,BS Civil Engineering,BS Information Technology
+Henry Gonzalez,Harvard University USA,1,67,BS Information Technology,BS Biology
+Jackson Johnson,Harvard University USA,1,66,BS Biology,BS Accountancy
+William Richardson,California Institute of Technology (Caltech) USA,1,66,BS Accountancy,BS Civil Engineering
+Gabriel Wilson,Imperial College London UK,1,66,BS Civil Engineering,BS Information Technology
+Ava Walker,University of Oxford UK,1,66,BS Information Technology,BS Biology
+Harper Bailey,Harvard University USA,1,64,BS Biology,BS Accountancy
+Alexander Clark,Harvard University USA,1,64,BS Accountancy,BS Civil Engineering
+Michael Evans,Stanford University USA,1,63,BS Civil Engineering,BS Information Technology
+Zoey Jenkins,Stanford University USA,1,62,BS Information Technology,BS Biology
+Liam Taylor,Harvard University USA,1,62,BS Biology,BS Accountancy
+Camila Rivera,University of Oxford UK,1,62,BS Accountancy,BS Civil Engineering
+Jack Garcia,Harvard University USA,1,62,BS Civil Engineering,BS Information Technology
+Joseph Parker,Massachusetts Institute of Technology (MIT) USA,1,62,BS Information Technology,BS Biology
+Abigail Thomas,University of Oxford UK,1,62,BS Biology,BS Accountancy
+Sophia Carter,Harvard University USA,1,61,BS Accountancy,BS Civil Engineering
+Layla Jackson,Harvard University USA,1,61,BS Civil Engineering,BS Information Technology
+Mia Smith,Stanford University USA,1,59,BS Information Technology,BS Biology
+Sofia Nelson,Stanford University USA,1,59,BS Biology,BS Accountancy
+Elijah Williams,Stanford University USA,1,58,BS Accountancy,BS Civil Engineering
+Charlotte Baker,Stanford University USA,1,58,BS Civil Engineering,BS Information Technology
+Benjamin Green,Stanford University USA,1,57,BS Information Technology,BS Biology
+Matthew Miller,Harvard University USA,1,57,BS Biology,BS Accountancy
+Ella Stewart,Stanford University USA,1,57,BS Accountancy,BS Civil Engineering
+Emily Moore,Stanford University USA,1,54,BS Civil Engineering,BS Information Technology
+Noah Martinez,Harvard University USA,1,53,BS Information Technology,BS Biology
+Grace Hall,Harvard University USA,1,51,BS Biology,BS Accountancy
+Logan Brown,University of Oxford UK,1,48,BS Accountancy,BS Civil Engineering
+Lily Davis,Stanford University USA,1,47,BS Civil Engineering,BS Information Technology
+Amelia Jones,Massachusetts Institute of Technology (MIT) USA,1,46,BS Information Technology,BS Biology
+Carter Wood,Harvard University USA,1,44,BS Biology,BS Accountancy
+Emma Reed,Harvard University USA,1,42,BS Accountancy,BS Civil Engineering
+Harper Diaz,Harvard University USA,1,41,BS Civil Engineering,BS Information Technology
+Daniel Lee,Stanford University USA,1,40,BS Information Technology,BS Biology
+David Adams,Stanford University USA,1,38,BS Biology,BS Accountancy
+James Scott,Harvard University USA,1,38,BS Accountancy,BS Civil Engineering
+Chloe Anderson,Harvard University USA,1,37,BS Civil Engineering,BS Information Technology
+Oliver Turner,Harvard University USA,1,37,BS Information Technology,BS Biology
+Scarlett Cooper,University of Oxford UK,1,34,BS Biology,BS Accountancy
+Mia Young,Stanford University USA,1,31,BS Accountancy,BS Civil Engineering
+Olivia White,Harvard University USA,1,30,BS Civil Engineering,BS Information Technology
+Lucas Hayes,Stanford University USA,1,30,BS Information Technology,BS Biology
+Aria King,University of Cambridge UK,1,30,BS Biology,BS Accountancy
+Madison Harris,Harvard University USA,1,30,BS Accountancy,BS Civil Engineering
+Aiden Thompson,University of Oxford UK,1,30,BS Civil Engineering,BS Information Technology
+Andrew Phillips,Harvard University USA,1,30,BS Information Technology,BS Biology
+Evelyn Robinson,Harvard University USA,1,28,BS Biology,BS Accountancy
+Avery Lewis,Stanford University USA,1,28,BS Accountancy,BS Civil Engineering
+Ethan Martin,Stanford University USA,1,24,BS Civil Engineering,BS Information Technology
+Nicholas Rodriguez,Harvard University USA,1,24,BS Information Technology,BS Biology
+Samuel Perez,Stanford University USA,1,20,BS Biology,BS Accountancy
+Emily Lee,Massachusetts Institute of Technology (MIT) USA,1,5,BS Accountancy,BS Civil Engineering
+John Doe,Stanford University USA,1,b,BS Civil Engineering,BS Information Technology
+Jane Smith,Harvard University USA,1,65,BS Information Technology,BS Biology
+Michael Johnson,Stanford University USA,1,65,BS Biology,BS Accountancy
+Emily Davis,Stanford University USA,1,65,BS Accountancy,BS Civil Engineering
+Robert Anderson,Harvard University USA,1,b,BS Civil Engineering,BS Information Technology
+Sarah White,Stanford University USA,1,65,BS Information Technology,BS Biology
+Christopher Lee,Harvard University USA,1,65,BS Biology,BS Accountancy
+Olivia Taylor,Harvard University USA,1,88,BS Accountancy,BS Civil Engineering
+Daniel Brown,University of Oxford UK,1,78,BS Civil Engineering,BS Information Technology
+Mia Harris,Harvard University USA,1,55,BS Information Technology,BS Biology
+Liam Martin,Harvard University USA,1,90,BS Biology,BS Accountancy
+Ava Garcia,University of Cambridge UK,1,SSS,BS Accountancy,BS Civil Engineering
+Ethan Wilson,University of Oxford UK,1,62,BS Civil Engineering,BS Information Technology
+Emma Miller,Harvard University USA,1,SD,BS Information Technology,BS Biology
+Noah Davis,Harvard University USA,1,ASD,BS Biology,BS Accountancy
+Sophia Clark,Harvard University USA,1,ASD,BS Accountancy,BS Civil Engineering
+Logan Turner,Stanford University USA,1,91,BS Civil Engineering,BS Information Technology
+Mia Johnson,Stanford University USA,1,77,BS Information Technology,BS Biology
+Aiden Thomas,Harvard University USA,1,SD,BS Biology,BS Accountancy
+Abigail Moore,Stanford University USA,1,86,BSED Mathematics,BS Civil Engineering
+Jackson Brooks,Harvard University USA,1,SDA,BS Criminology,BS Information Technology
+Lily Walker,Stanford University USA,1,82,BS Computer Science,BS Biology
+Samuel Hall,Stanford University USA,1,89,BS Psychology,BS Accountancy
+Zoey Adams,Stanford University USA,1,57,BSED Mathematics,BS Civil Engineering
+Owen Turner,Stanford University USA,1,76,BS Criminology,BS Information Technology
+Grace Taylor,Harvard University USA,1,S,BS Computer Science,BS Biology
+Benjamin Scott,Stanford University USA,1,64,BS Psychology,BS Accountancy
+Harper Baker,University of Oxford UK,1,94,BSED Mathematics,BS Civil Engineering
+D,Stanford University USA,1,S,BS Criminology,BS Information Technology
+Natalie King,Stanford University USA,1,59,BS Computer Science,BS Biology
+Isaac Ward,Harvard University USA,1,93,BS Psychology,BS Accountancy
+Aria Lopez,Harvard University USA,1,66,BSED Mathematics,BS Civil Engineering
+James Cooper,Harvard University USA,1,74,BS Criminology,BS Information Technology
+Stella Mitchell,Harvard University USA,1,S,BS Computer Science,BS Biology
+Leo Perez,Harvard University USA,1,73,BS Psychology,BS Accountancy
+Hazel Rivera,Stanford University USA,1,S,BSED Mathematics,BS Civil Engineering
+Elijah Reed,University of Oxford UK,1,98,BS Criminology,BS Information Technology
+Penelope Torres,Harvard University USA,1,72,BS Computer Science,BS Biology
+Wyatt Morgan,Harvard University USA,1,61,BS Psychology,BS Accountancy
+Addison Price,Harvard University USA,1,96,BSED Mathematics,BS Civil Engineering
+Grayson Bell,Harvard University USA,1,71,BS Criminology,BS Information Technology
+Paisley Diaz,Stanford University USA,1,54,BS Computer Science,BS Biology
+Lincoln Coleman,Harvard University USA,1,99,BS Psychology,BS Accountancy
+Gabriella Hayes,Harvard University USA,1,70,BSED Mathematics,BS Civil Engineering
+Zane Stewart,Harvard University USA,1,67,BS Criminology,BS Information Technology
+Bella Turner,Stanford University USA,1,95,BS Computer Science,BS Biology
+Caleb Ross,Stanford University USA,1,69,BS Psychology,BS Accountancy
+Luna Young,Harvard University USA,1,53,BSED Mathematics,BS Civil Engineering
+Mateo Perry,Harvard University USA,1,B,BS Criminology,BS Information Technology
+Hazel Collins,Stanford University USA,1,75,BS Computer Science,BS Biology
+Hudson Hughes,Stanford University USA,1,52,BS Psychology,BS Accountancy
+Aurora Morgan,Massachusetts Institute of Technology (MIT) USA,1,89,BSED Mathematics,BS Civil Engineering
+Carter Brooks,Harvard University USA,1,74,BS Criminology,BS Information Technology
+Nova Ward,Stanford University USA,1,51,BS Computer Science,BS Biology
+Elijah Kelly,Stanford University USA,1,93,BS Psychology,BS Accountancy
+Ivy Powell,Harvard University USA,1,77,BSED Mathematics,BS Civil Engineering
+Sawyer Bailey,Harvard University USA,1,58,BS Criminology,BS Information Technology
+Clara Holmes,Stanford University USA,1,87,BS Computer Science,BS Biology
+Silas Sullivan,Harvard University USA,1,76,BS Psychology,BS Accountancy
+Hazel Olson,Harvard University USA,1,55,BSED Mathematics,BS Civil Engineering
+Lincoln Holmes,Harvard University USA,1,91,BS Criminology,BS Information Technology
+Lucy Myers,Massachusetts Institute of Technology (MIT) USA,1,80,BS Computer Science,BS Biology
+Nolan Turner,Harvard University USA,1,63,BS Psychology,BS Accountancy
+Stella Schmidt,Stanford University USA,1,88,BSED Mathematics,BS Civil Engineering
+Max Thompson,Harvard University USA,1,79,BS Criminology,BS Information Technology
+Mia Harper,Massachusetts Institute of Technology (MIT) USA,1,56,BS Computer Science,BS Biology
+Oliver Turner,Harvard University USA,1,90,BS Psychology,BS Accountancy
+Scarlett Foster,Harvard University USA,1,82,BSED Mathematics,BS Civil Engineering
+Levi Russell,Stanford University USA,1,59,BS Criminology,BS Information Technology
+Evelyn Reed,Harvard University USA,1,86,BS Computer Science,BS Biology
+Jackson Turner,Harvard University USA,1,78,BS Psychology,BS Accountancy
+Harper Coleman,Stanford University USA,1,60,BSED Mathematics,BS Civil Engineering
+Amelia Brooks,Stanford University USA,1,92,BS Criminology,BS Information Technology
+Mason Turner,Harvard University USA,1,81,BS Computer Science,BS Biology
+Zoe Sullivan,Stanford University USA,1,57,BS Psychology,BS Accountancy
+Caleb Turner,Harvard University USA,1,94,BSED Mathematics,BS Civil Engineering
+Aurora Hayes,Stanford University USA,1,83,BS Criminology,BS Information Technology
+Logan Turner,Harvard University USA,1,62,BS Computer Science,BS Biology
+Ivy Bell,Harvard University USA,1,85,BS Psychology,BS Accountancy
+John Smith,Stanford University USA,1,88,BSED Mathematics,BS Civil Engineering
+Emily Johnson,Harvard University USA,1,70,BS Criminology,BS Information Technology
+Ethan Parker,Harvard University USA,1,95,BS Computer Science,BS Biology
+Sophie Brown,Massachusetts Institute of Technology (MIT) USA,1,85,BS Psychology,BS Accountancy
+Noah Wilson,University of Oxford UK,1,65,BSED Mathematics,BS Civil Engineering
+Ava Turner,Harvard University USA,1,92,BS Criminology,BS Information Technology
+Olivia White,Harvard University USA,1,78,BS Computer Science,BS Biology
+Logan Davis,Harvard University USA,1,60,BS Psychology,BS Accountancy
+Emma Adams,Massachusetts Institute of Technology (MIT) USA,1,87,BSED Mathematics,BS Civil Engineering
+Daniel Hall,Massachusetts Institute of Technology (MIT) USA,1,84,BS Criminology,BS Information Technology
+Mia Martin,Harvard University USA,1,68,BS Computer Science,BS Biology
+Liam Harris,California Institute of Technology (Caltech) USA,1,90,BS Psychology,BS Accountancy
+Ella Thompson,Harvard University USA,1,79,BSED Mathematics,BS Civil Engineering
+James Carter,Harvard University USA,1,63,BS Criminology,BS Information Technology
+Avery Taylor,Harvard University USA,1,91,BS Computer Science,BS Biology
+Isabella Rodriguez,University of Oxford UK,1,77,BS Psychology,BS Accountancy
+Matthew Lee,Harvard University USA,1,55,BSED Mathematics,BS Civil Engineering
+Evelyn King,Harvard University USA,1,86,BS Criminology,BS Information Technology
+Michael Harris,California Institute of Technology (Caltech) USA,1,82,BS Computer Science,BS Biology
+Aria Scott,Imperial College London UK,1,59,BS Psychology,BS Accountancy
+Elijah Baker,University of Oxford UK,1,94,BSED Mathematics,BS Civil Engineering
+Charlotte Clark,Harvard University USA,1,83,BS Criminology,BS Information Technology
+Lucas Turner,Harvard University USA,1,62,BS Computer Science,BS Biology
+Grace Evans,Stanford University USA,1,85,BS Psychology,BS Accountancy
+Benjamin Turner,Stanford University USA,1,88,BSED Mathematics,BS Civil Engineering
+Aria Nelson,Harvard University USA,1,70,BS Criminology,BS Information Technology
+Hazel Parker,University of Oxford UK,1,95,BS Computer Science,BS Biology
+Zoey Thompson,Harvard University USA,1,80,BS Psychology,BS Accountancy
+Jacob Brooks,Massachusetts Institute of Technology (MIT) USA,1,65,BSED Mathematics,BS Civil Engineering
+Mia Hernandez,University of Oxford UK,1,92,BS Criminology,BS Information Technology
+Landon Davis,Harvard University USA,1,78,BS Computer Science,BS Biology
+Eva Adams,Harvard University USA,1,60,BS Psychology,BS Accountancy
+Jack Hall,Stanford University USA,1,87,BSED Mathematics,BS Civil Engineering
+Ella Miller,Stanford University USA,1,84,BS Criminology,BS Information Technology
+Logan Martin,Stanford University USA,1,68,BS Computer Science,BS Biology
+Avery Harris,Stanford University USA,1,90,BS Psychology,BS Accountancy
+Isabella Thompson,Stanford University USA,1,79,BSED Mathematics,BS Civil Engineering
+Matthew Carter,Harvard University USA,1,63,BS Criminology,BS Information Technology
+Evelyn Taylor,Stanford University USA,1,91,BS Computer Science,BS Biology
+Michael Rodriguez,Stanford University USA,1,77,BS Psychology,BS Accountancy
+Aria Lee,Harvard University USA,1,55,BSED Mathematics,BS Civil Engineering
+Sophie Holmes,Harvard University USA,1,86,BS Criminology,BS Information Technology
+Noah Scott,University of Oxford UK,1,82,BS Computer Science,BS Biology
+Ava Baker,Stanford University USA,1,59,BS Psychology,BS Accountancy
+Olivia Turner,Massachusetts Institute of Technology (MIT) USA,1,94,BSED Mathematics,BS Civil Engineering
+Logan Clark,Harvard University USA,1,83,BS Criminology,BS Information Technology
+Emma Evans,Harvard University USA,1,62,BS Computer Science,BS Biology
+Logan Davis,Harvard University USA,1,60,BS Psychology,BS Accountancy
+Emma Adams,Stanford University USA,1,87,BSED Mathematics,BS Civil Engineering
+Daniel Hall,Stanford University USA,1,84,BS Criminology,BS Information Technology
+Mia Martin,Harvard University USA,1,68,BS Computer Science,BS Biology
+Liam Harris,Harvard University USA,1,90,BS Psychology,BS Accountancy
+Ella Thompson,Harvard University USA,1,79,BSED Mathematics,BS Civil Engineering
+James Carter,University of Oxford UK,1,63,BS Criminology,BS Information Technology
+Avery Taylor,Stanford University USA,1,91,BS Computer Science,BS Biology
+Isabella Rodriguez,Harvard University USA,1,77,BS Psychology,BS Accountancy
+Matthew Lee,Stanford University USA,1,55,BSED Mathematics,BS Civil Engineering
+Evelyn King,University of Cambridge UK,1,86,BS Criminology,BS Information Technology
+Michael Harris,Harvard University USA,1,82,BS Computer Science,BS Biology
+Aria Scott,University of Oxford UK,1,59,BS Psychology,BS Accountancy
+Elijah Baker,Harvard University USA,1,94,BSED Mathematics,BS Civil Engineering
+Charlotte Clark,Harvard University USA,1,83,BS Criminology,BS Information Technology
+Lucas Turner,Stanford University USA,1,62,BS Computer Science,BS Biology
+Grace Evans,Stanford University USA,1,85,BS Psychology,BS Accountancy
+Benjamin Turner,Harvard University USA,1,88,BSED Mathematics,BS Civil Engineering
+Aria Nelson,Stanford University USA,1,70,BS Criminology,BS Information Technology
+Hazel Parker,Massachusetts Institute of Technology (MIT) USA,1,95,BS Computer Science,BS Biology
+Zoey Thompson,Stanford University USA,1,80,BS Psychology,BS Accountancy
+Jacob Brooks,Harvard University USA,1,65,BSED Mathematics,BS Civil Engineering
+Mia Hernandez,Stanford University USA,1,92,BS Criminology,BS Information Technology
+Landon Davis,Stanford University USA,1,78,BS Computer Science,BS Biology
+Eva Adams,Harvard University USA,1,60,BS Psychology,BS Accountancy
+Jack Hall,Stanford University USA,1,87,BSED Mathematics,BS Civil Engineering
+Ella Miller,Harvard University USA,1,84,BS Criminology,BS Information Technology
+Logan Martin,Harvard University USA,1,68,BS Computer Science,BS Biology
+Avery Harris,University of Oxford UK,1,90,BS Psychology,BS Accountancy
+Isabella Thompson,Harvard University USA,1,79,BSED Mathematics,BS Civil Engineering
+Matthew Carter,Harvard University USA,1,63,BS Criminology,BS Information Technology
+Evelyn Taylor,University of Cambridge UK,1,91,BS Computer Science,BS Biology
+Michael Rodriguez,University of Oxford UK,1,77,BS Psychology,BS Accountancy
+Aria Lee,Harvard University USA,1,55,BSED Mathematics,BS Civil Engineering
+Sophie Holmes,Harvard University USA,1,86,BS Criminology,BS Information Technology
+Noah Scott,Harvard University USA,1,82,BS Computer Science,BS Biology
+Ava Baker,Stanford University USA,1,59,BS Psychology,BS Accountancy
+Olivia Turner,Stanford University USA,1,94,BSED Mathematics,BS Civil Engineering
+Logan Clark,Harvard University USA,1,83,BS Criminology,BS Information Technology
+Emma Evans,Stanford University USA,1,62,BS Computer Science,BS Biology
+Lucas Turner,Harvard University USA,1,85,BS Psychology,BS Accountancy
+Darryl John,Stanford University USA,1,97,BSED Mathematics,BS Civil Engineering
+Jasmine Parker,Stanford University USA,1,79,BS Criminology,BS Information Technology
+Xavier Montgomery,Stanford University USA,1,63,BS Computer Science,BS Biology
+Emily Rodriguez,Stanford University USA,1,91,BS Psychology,BS Accountancy
+Jacob Patel,Harvard University USA,1,77,BSED Mathematics,BS Civil Engineering
+Olivia Chang,Stanford University USA,1,55,BS Criminology,BS Information Technology
+Lucas Thompson,University of Oxford UK,1,86,BS Computer Science,BS Biology
+Ava Khan,Stanford University USA,1,82,BS Psychology,BS Accountancy
+Benjamin Kim,Stanford University USA,1,59,BSED Mathematics,BS Civil Engineering
+Sophia Gupta,Harvard University USA,1,94,BS Criminology,BS Information Technology
+William Santos,Harvard University USA,1,83,BS Computer Science,BS Biology
+Nathanial Reynolds,Harvard University USA,1,62,BS Psychology,BS Accountancy
+Stella Moore,Harvard University USA,1,85,BSED Mathematics,BS Civil Engineering
+Damian Hunt,Harvard University USA,1,88,BS Criminology,BS Information Technology
+Madeline Griffin,Stanford University USA,1,70,BS Computer Science,BS Biology
+Isaac Park,University of Oxford UK,1,95,BS Psychology,BS Accountancy
+Lydia Foster,Harvard University USA,1,80,BSED Mathematics,BS Civil Engineering
+Mason Donovan,Harvard University USA,1,65,BS Criminology,BS Information Technology
+Penelope Choi,Harvard University USA,1,92,BS Computer Science,BS Biology
+Dominic Clarke,Harvard University USA,1,78,BS Psychology,BS Accountancy
+Violet Nguyen,Stanford University USA,1,60,BSED Mathematics,BS Civil Engineering
+Vincent Barker,Harvard University USA,1,87,BS Criminology,BS Information Technology
+Elise Zimmerman,Harvard University USA,1,84,BS Computer Science,BS Biology
+Desmond Wong,Harvard University USA,1,68,BS Psychology,BS Accountancy
+Harper Bishop,Stanford University USA,1,90,BSED Mathematics,BS Civil Engineering
+Xavier Roth,Stanford University USA,1,79,BS Criminology,BS Information Technology
+Elena Vargas,Harvard University USA,1,63,BS Computer Science,BS Biology
+Garrett Fuller,Harvard University USA,1,91,BS Psychology,BS Accountancy
+Juniper Patel,Stanford University USA,1,77,BSED Mathematics,BS Civil Engineering
+Tristan Shepard,Stanford University USA,1,55,BS Criminology,BS Information Technology
+Eloise Kim,Massachusetts Institute of Technology (MIT) USA,1,86,BS Computer Science,BS Biology
+Roman Sullivan,Harvard University USA,1,82,BS Psychology,BS Accountancy
+Aurora Santos,Stanford University USA,1,59,BSED Mathematics,BS Civil Engineering
+Atticus Hawkins,Stanford University USA,1,94,BS Criminology,BS Information Technology
+Juliette Ruiz,Harvard University USA,1,83,BS Computer Science,BS Biology
+Finnegan Schultz,Harvard University USA,1,62,BS Psychology,BS Accountancy
+Cassandra Graham,Stanford University USA,1,85,BSED Mathematics,BS Civil Engineering
+Silas Flynn,Harvard University USA,1,79,BS Criminology,BS Information Technology
+Kiera Holland,Harvard University USA,1,63,BS Computer Science,BS Biology
+Ezekiel Cameron,Harvard University USA,1,91,BS Psychology,BS Accountancy
+Adrianna Novak,Massachusetts Institute of Technology (MIT) USA,1,77,BSED Mathematics,BS Civil Engineering
+Wesley Carr,Harvard University USA,0,55,BS Criminology,BS Information Technology
+Serenity Heath,Stanford University USA,0,86,BS Computer Science,BS Biology
+Bryce Harrington,Harvard University USA,0,82,BS Psychology,BS Accountancy
+Paisley Delgado,Massachusetts Institute of Technology (MIT) USA,0,59,BSED Mathematics,BS Civil Engineering
+Jonah Weiss,Harvard University USA,0,94,BS Criminology,BS Information Technology
+Sienna Vega,Harvard University USA,0,83,BS Computer Science,BS Biology
+Zachary O'Connell,Stanford University USA,0,62,BS Psychology,BS Accountancy
+Gabrielle Pena,Harvard University USA,0,85,BSED Mathematics,BS Civil Engineering
+Grady McLaughlin,Harvard University USA,0,88,BS Criminology,BS Information Technology
+Amara Soto,Stanford University USA,0,70,BS Computer Science,BS Biology
+Jaxon Rojas,Stanford University USA,0,95,BS Psychology,BS Accountancy
+Leilani Chambers,Harvard University USA,0,80,BSED Mathematics,BS Civil Engineering
+Sawyer Yu,Stanford University USA,0,65,BS Criminology,BS Information Technology
+Anaya Fitzgerald,Harvard University USA,0,92,BS Computer Science,BS Biology
+Tucker Chan,Stanford University USA,0,78,BS Psychology,BS Accountancy
+Adelaide Macias,Harvard University USA,0,60,BSED Mathematics,BS Civil Engineering
+Kaden Ho,Harvard University USA,0,87,BS Criminology,BS Information Technology
+Lillian Maldonado,Stanford University USA,0,84,BS Computer Science,BS Biology
+Rylan Pritchard,Harvard University USA,0,68,BS Psychology,BS Accountancy
+Marina Boone,Harvard University USA,0,90,BSED Mathematics,BS Civil Engineering
+Corbin Cabrera,Massachusetts Institute of Technology (MIT) USA,0,79,BS Criminology,BS Information Technology
+Genevieve Rivas,University of Oxford UK,0,63,BS Computer Science,BS Biology
+Beckham Mahoney,Harvard University USA,0,91,BS Psychology,BS Accountancy
+Evangeline Crosby,Harvard University USA,0,77,BSED Mathematics,BS Civil Engineering
+Solomon Kerr,Harvard University USA,0,55,BS Criminology,BS Information Technology
+Athena Wu,Massachusetts Institute of Technology (MIT) USA,0,86,BS Computer Science,BS Biology
+Keegan Daugherty,Massachusetts Institute of Technology (MIT) USA,0,82,BS Psychology,BS Accountancy
+Madeleine Yu,Harvard University USA,0,59,BSED Mathematics,BS Civil Engineering
+Matthias O'Neill,California Institute of Technology (Caltech) USA,0,94,BS Criminology,BS Information Technology
+Nova Cantu,Harvard University USA,0,83,BS Computer Science,BS Biology
+Orlando Valencia,Harvard University USA,0,62,BS Psychology,BS Accountancy
+Camilla Page,Harvard University USA,0,85,BSED Mathematics,BS Civil Engineering
+Greyson Montoya,University of Oxford UK,0,92,BS Criminology,BS Information Technology
+Luciana Key,Harvard University USA,0,78,BS Computer Science,BS Biology
+Kellan Macdonald,Harvard University USA,0,60,BS Psychology,BS Accountancy
+Camille Conrad,California Institute of Technology (Caltech) USA,0,87,BSED Mathematics,BS Civil Engineering
+Lachlan Bolton,Imperial College London UK,0,84,BS Criminology,BS Information Technology
+Giselle Hanna,University of Oxford UK,0,68,BS Computer Science,BS Biology
+Callum Bender,Harvard University USA,0,90,BS Psychology,BS Accountancy
+Ember Rivera,Harvard University USA,0,79,BSED Mathematics,BS Civil Engineering
+Clark Stanton,Stanford University USA,0,63,BS Criminology,BS Information Technology
+Summer Floyd,Stanford University USA,0,91,BS Computer Science,BS Biology
+Elliot Villegas,Harvard University USA,0,77,BS Psychology,BS Accountancy
+Marley Acevedo,University of Oxford UK,0,55,BSED Mathematics,BS Civil Engineering
+Nixon Bradshaw,Harvard University USA,0,86,BS Criminology,BS Information Technology
+Cecilia Ochoa,Massachusetts Institute of Technology (MIT) USA,0,82,BS Computer Science,BS Biology
+Kyrie Potts,University of Oxford UK,0,59,BS Psychology,BS Accountancy
+Francesca Gillespie,Harvard University USA,0,94,BSED Mathematics,BS Civil Engineering
+Lawrence Proctor,Harvard University USA,0,83,BS Criminology,BS Information Technology
+Jocelyn Pacheco,Stanford University USA,0,62,BS Computer Science,BS Biology
+Heath Weiss,Stanford University USA,0,85,BS Psychology,BS Accountancy
+Celeste Hendricks,Stanford University USA,0,88,BSED Mathematics,BS Civil Engineering
+Konnor Dorsey,Stanford University USA,0,70,BS Criminology,BS Information Technology
+Raquel Sheppard,Stanford University USA,0,95,BS Computer Science,BS Biology
+Alessandro Cartwright,Harvard University USA,0,80,BS Psychology,BS Accountancy
+Juno Rangel,Stanford University USA,0,65,BSED Mathematics,BS Civil Engineering
+Carlisle Hendrix,Stanford University USA,0,92,BS Criminology,BS Information Technology
+Roselyn Sheppard,Harvard University USA,0,78,BS Computer Science,BS Biology
+Cullen Dunlap,Harvard University USA,0,60,BS Psychology,BS Accountancy
+Dahlia Ritter,University of Oxford UK,0,87,BSED Mathematics,BS Civil Engineering
+Jedidiah Rasmussen,Stanford University USA,0,84,BS Criminology,BS Information Technology
+Aisha Olsen,Massachusetts Institute of Technology (MIT) USA,0,68,BS Computer Science,BS Biology
+Stefan Medina,Harvard University USA,0,90,BS Psychology,BS Accountancy
+Reyna Bender,Harvard University USA,0,79,BSED Mathematics,BS Civil Engineering
+Trenton Townsend,Harvard University USA,0,63,BS Criminology,BS Information Technology
+Ingrid Huber,Stanford University USA,0,91,BS Computer Science,BS Biology
+Anders Cuevas,Stanford University USA,0,77,BS Psychology,BS Accountancy
+Noelle Shea,Harvard University USA,0,55,BSED Mathematics,BS Civil Engineering
+Emery Cooley,Harvard University USA,0,86,BS Criminology,BS Information Technology
+Kyla Huerta,Harvard University USA,0,82,BS Computer Science,BS Biology
+Declan Donovan,University of Oxford UK,0,59,BS Psychology,BS Accountancy
+Annabelle Huang,Stanford University USA,0,94,BSED Mathematics,BS Civil Engineering
+Phoenix Chang,Harvard University USA,0,83,BS Criminology,BS Information Technology
+Zachariah Patel,Stanford University USA,0,62,BS Computer Science,BS Biology
+Marlowe Tran,University of Cambridge UK,0,60,BS Psychology,BS Accountancy
+Kellan Fitzgerald,Harvard University USA,0,87,BSED Mathematics,BS Civil Engineering
+Eliza Werner,University of Oxford UK,0,84,BS Criminology,BS Information Technology
+Darian Ortiz,Harvard University USA,0,68,BS Computer Science,BS Biology
+Adeline Monroe,Harvard University USA,0,90,BS Psychology,BS Accountancy
+Rafaela Bishop,Stanford University USA,0,79,BSED Mathematics,BS Civil Engineering
+Kian O'Malley,Stanford University USA,0,63,BS Criminology,BS Information Technology
+Mira Santiago,Harvard University USA,0,91,BS Computer Science,BS Biology
+Alaric Jefferson,Stanford University USA,0,77,BS Psychology,BS Accountancy
+Vienna Park,Massachusetts Institute of Technology (MIT) USA,0,55,BSED Mathematics,BS Civil Engineering
+Nikolai Pritchard,Stanford University USA,0,86,BS Criminology,BS Information Technology
+Raina Espinoza,Harvard University USA,0,82,BS Computer Science,BS Biology
+Emmett Bradford,Stanford University USA,0,59,BS Psychology,BS Accountancy
+Gwendolyn Shea,Stanford University USA,0,94,BSED Mathematics,BS Civil Engineering
+Anders Rosales,Harvard University USA,0,83,BS Criminology,BS Information Technology
+Zara Cantrell,Stanford University USA,0,62,BS Computer Science,BS Biology
+Kyson McCall,Harvard University USA,0,85,BS Psychology,BS Accountancy
+Cassandra Zhang,Harvard University USA,0,88,BSED Mathematics,BS Civil Engineering
+Jayleen Huang,University of Oxford UK,0,70,BS Criminology,BS Information Technology
+Bowen Griffin,Harvard University USA,0,95,BS Computer Science,BS Biology
+Perla Hawkins,Harvard University USA,0,80,BS Psychology,BS Accountancy
+Kaison Yu,University of Cambridge UK,0,65,BSED Mathematics,BS Civil Engineering
+Margot Davenport,University of Oxford UK,0,92,BS Criminology,BS Information Technology
+Jett Haas,Harvard University USA,0,78,BS Computer Science,BS Biology
+Ember Hendricks,Harvard University USA,0,60,BS Psychology,BS Accountancy
+Zainab Archer,Harvard University USA,0,87,BSED Mathematics,BS Civil Engineering
+Alessio Valencia,Stanford University USA,0,84,BS Criminology,BS Information Technology
+Maritza Duarte,Stanford University USA,0,68,BS Computer Science,BS Biology
+Sterling Carlson,Harvard University USA,0,90,BS Psychology,BS Accountancy
+Aviana Ho,Stanford University USA,0,79,BSED Mathematics,BS Civil Engineering
+Bodhi O'Donnell,Harvard University USA,0,63,BS Criminology,BS Information Technology
+Elianna Velez,Stanford University USA,0,91,BS Computer Science,BS Biology
+Yael Levy,Stanford University USA,0,77,BS Psychology,BS Accountancy
+Orion Escobar,Stanford University USA,0,55,BSED Mathematics,BS Civil Engineering
+Callie Werner,Stanford University USA,0,86,BS Criminology,BS Information Technology
+Landen Ritter,Harvard University USA,0,82,BS Computer Science,BS Biology
+Amalia Friedman,Stanford University USA,0,59,BS Psychology,BS Accountancy
+Thaddeus Donovan,University of Oxford UK,0,94,BSED Mathematics,BS Civil Engineering
+Sariyah Yu,Stanford University USA,0,83,BS Criminology,BS Information Technology
+Corey Hutchinson,Stanford University USA,0,62,BS Computer Science,BS Biology
+Lina Foley,Harvard University USA,0,85,BS Psychology,BS Accountancy
+Koda McConnell,Harvard University USA,0,97,BSED Mathematics,BS Civil Engineering
+Emberly Frye,Harvard University USA,0,79,BS Criminology,BS Information Technology
+Bruno Boone,Harvard University USA,0,92,BS Computer Science,BS Biology
+Alia Waller,Harvard University USA,0,78,BS Psychology,BS Accountancy
+Landry McPherson,Stanford University USA,0,60,BSED Mathematics,BS Civil Engineering
+Leighton Foley,University of Oxford UK,0,87,BS Criminology,BS Information Technology
+Elinor Melendez,Harvard University USA,0,84,BS Computer Science,BS Biology
+Aryan Serrano,Harvard University USA,0,68,BS Psychology,BS Criminology
+Elyse Rubio,Harvard University USA,0,90,BSED Mathematics,BS Computer Science
+Omari Nicholson,Harvard University USA,0,79,BS Criminology,BS Psychology
+Alaya Lozano,Stanford University USA,0,63,BS Computer Science,BSED Mathematics
+Ephraim Sweeney,Harvard University USA,0,91,BS Psychology,BS Criminology
+Lilith Nguyen,Harvard University USA,0,77,BSED Mathematics,BS Computer Science
+Bronson Mullen,Harvard University USA,0,55,BS Criminology,BS Psychology
+Meredith Velasquez,Stanford University USA,0,86,BS Computer Science,BSED Mathematics
+Zayden Donovan,Stanford University USA,0,82,BS Psychology,BS Criminology
+Annalise Yu,Harvard University USA,0,59,BSED Mathematics,BS Computer Science
+Brett Castillo,Harvard University USA,0,94,BS Criminology,BS Psychology
+Kamryn Gallegos,Stanford University USA,0,83,BS Computer Science,BSED Mathematics
+Neymar Carpenter,Stanford University USA,0,62,BS Psychology,BS Criminology
+Milani Eaton,Massachusetts Institute of Technology (MIT) USA,0,85,BSED Mathematics,BS Computer Science
+Dorian Pineda,Harvard University USA,0,88,BS Criminology,BS Psychology
+Maisie Santana,Stanford University USA,0,70,BS Computer Science,BSED Mathematics
+Royce Sheppard,Stanford University USA,0,95,BS Psychology,BS Criminology
+Aiyana Huber,Harvard University USA,0,80,BSED Mathematics,BS Computer Science
+Lucien Mercer,Harvard University USA,0,65,BS Criminology,BS Psychology
+Kaitlyn O'Connell,Stanford University USA,0,92,BS Computer Science,BSED Mathematics
+Heath Garrison,Harvard University USA,0,78,BS Psychology,BS Criminology
+Amina Werner,Harvard University USA,0,60,BSED Mathematics,BS Computer Science
+Kylan Proctor,Harvard University USA,0,87,BS Criminology,BS Psychology
+Iliana Bartlett,Massachusetts Institute of Technology (MIT) USA,0,84,BS Computer Science,BSED Mathematics
+Davian Stokes,Harvard University USA,0,68,BS Psychology,BS Criminology
+Alessandra Holland,Stanford University USA,0,90,BSED Mathematics,BS Computer Science
+Yahir Mercer,Harvard University USA,0,79,BS Criminology,BS Psychology
+Mariam French,Massachusetts Institute of Technology (MIT) USA,0,63,BS Computer Science,BSED Mathematics
+Rayden Haas,Harvard University USA,0,91,BS Psychology,BS Criminology
+Saanvi Dawson,Harvard University USA,0,77,BSED Mathematics,BS Computer Science
+Zavier Pruitt,Stanford University USA,0,55,BS Criminology,BS Psychology
+Maren Ayers,Harvard University USA,0,86,BS Computer Science,BSED Mathematics
+Alonzo Werner,Harvard University USA,0,82,BS Psychology,BS Criminology
+Aryanna Chang,Stanford University USA,0,59,BSED Mathematics,BS Computer Science
+Kannon Maldonado,Stanford University USA,0,94,BS Criminology,BS Psychology
+Arlette Carpenter,Harvard University USA,0,83,BS Computer Science,BSED Mathematics
+Kyree Hendricks,Stanford University USA,0,62,BS Psychology,BS Criminology
+Daphne Stuart,Harvard University USA,0,60,BSED Mathematics,BS Computer Science
+Boone McDowell,Stanford University USA,0,87,BS Criminology,BS Psychology
+Ramona Donovan,Harvard University USA,0,84,BS Computer Science,BSED Mathematics
+Jadiel Stanton,Harvard University USA,0,68,BS Psychology,BS Criminology
+Veda Moyer,Stanford University USA,0,90,BSED Mathematics,BS Computer Science
+Valentino French,Harvard University USA,0,79,BS Criminology,BS Psychology
+Amayah Werner,Harvard University USA,0,63,BS Computer Science,BSED Mathematics
+Nikolai Rollins,Massachusetts Institute of Technology (MIT) USA,0,91,BS Psychology,BS Criminology
+Lillianna Ho,University of Oxford UK,0,77,BSED Mathematics,BS Computer Science
+Ramonita Deleon,Harvard University USA,0,55,BS Criminology,BS Psychology
+Trace Haas,Harvard University USA,0,86,BS Computer Science,BSED Mathematics
+Amara Rocha,Harvard University USA,0,82,BS Psychology,BS Criminology
+Jovani Wong,Massachusetts Institute of Technology (MIT) USA,0,59,BSED Mathematics,BS Computer Science
+Analia Baxter,Massachusetts Institute of Technology (MIT) USA,0,94,BS Criminology,BS Psychology
+Enoch Zimmerman,Harvard University USA,0,83,BS Computer Science,BSED Mathematics
+Elina Duarte,California Institute of Technology (Caltech) USA,0,62,BS Psychology,BS Criminology
+Karsyn Barrera,Harvard University USA,0,85,BSED Mathematics,BS Computer Science
+Raylan Levy,Harvard University USA,0,88,BS Criminology,BS Psychology
+Zaynab Werner,Harvard University USA,0,70,BS Computer Science,BSED Mathematics
+Gianluca Kent,University of Oxford UK,0,95,BS Psychology,BS Criminology
+Lilian McKay,Harvard University USA,0,80,BSED Mathematics,BS Computer Science
+Yahya Stuart,Harvard University USA,0,65,BS Criminology,BS Psychology
+Emory Buckley,California Institute of Technology (Caltech) USA,0,92,BS Computer Science,BSED Mathematics
+Emilee Carrillo,Imperial College London UK,0,78,BS Psychology,BS Criminology
+Imran Yu,University of Oxford UK,0,60,BSED Mathematics,BS Computer Science
+Anais Esparza,Harvard University USA,0,87,BS Criminology,BS Psychology
+Korbin Werner,Harvard University USA,0,84,BS Computer Science,BSED Mathematics
+Kayley Nixon,Stanford University USA,0,68,BS Psychology,BS Criminology
+Daxton Rosario,Stanford University USA,0,90,BSED Mathematics,BS Computer Science
+Anabella Hensley,Harvard University USA,0,79,BS Criminology,BS Psychology
+Franco Pace,University of Oxford UK,0,63,BS Computer Science,BSED Mathematics
+Lilah Andrade,Harvard University USA,0,91,BS Psychology,BS Criminology
+Kamdyn Werner,Massachusetts Institute of Technology (MIT) USA,0,77,BSED Mathematics,BS Computer Science
+Faye Mathews,University of Oxford UK,0,55,BS Criminology,BS Psychology
+Kolten Hess,Harvard University USA,0,86,BS Computer Science,BSED Mathematics
+Armani Stanton,Harvard University USA,0,82,BS Psychology,BS Criminology
+Emani Hebert,Stanford University USA,0,59,BSED Mathematics,BS Computer Science
+Brice Vang,Stanford University USA,0,94,BS Criminology,BS Psychology
+Yoselin Snow,Stanford University USA,0,83,BS Computer Science,BSED Mathematics
+Bradyn Poole,Stanford University USA,0,62,BS Psychology,BS Criminology
+Jurnee Mckinney,Stanford University USA,0,85,BSED Mathematics,BS Computer Science
+Darian Stanton,Harvard University USA,0,97,BS Criminology,BS Psychology
+Magdalena O'Connell,Stanford University USA,0,79,BS Computer Science,BSED Mathematics
+Alexzander Booth,Stanford University USA,0,92,BS Psychology,BS Criminology
+Ayden Friedman,Harvard University USA,0,78,BSED Mathematics,BS Computer Science
+Cambria Levine,Harvard University USA,0,60,BS Criminology,BS Psychology
+Kylan Crosby,University of Oxford UK,0,87,BS Computer Science,BSED Mathematics
+Brynley Yu,Stanford University USA,0,84,BS Psychology,BS Criminology
+Zavier Yu,Massachusetts Institute of Technology (MIT) USA,0,68,BSED Mathematics,BS Computer Science
+Kylah Erickson,Harvard University USA,0,90,BS Criminology,BS Psychology
+Kaison Yu,Harvard University USA,0,79,BS Computer Science,BSED Mathematics
+Adalynn Werner,Harvard University USA,0,63,BS Psychology,BS Criminology
+Kylan Stafford,Stanford University USA,0,91,BSED Mathematics,BS Computer Science
+Charleigh Randolph,Stanford University USA,0,77,BS Criminology,BS Psychology
+Zyaire Cantu,Harvard University USA,0,55,BS Computer Science,BSED Mathematics
+Mckinley Harding,Harvard University USA,0,86,BS Psychology,BS Criminology
+Jazmin Mclean,Harvard University USA,0,82,BSED Mathematics,BS Computer Science
+Rayne Ho,University of Oxford UK,0,59,BS Criminology,BS Psychology
+Emory Dougherty,Stanford University USA,0,94,BS Computer Science,BSED Mathematics
+Sariyah Yu,Harvard University USA,0,83,BS Psychology,BS Criminology
+Kase Silva,Stanford University USA,0,62,BSED Mathematics,BS Computer Science
+Briggs Shea,University of Cambridge UK,0,85,BS Criminology,BS Psychology
+Lillie Fitzgerald,Harvard University USA,0,88,BS Computer Science,BSED Mathematics
+Arya Melton,University of Oxford UK,0,70,BS Psychology,BS Criminology
+Aniya Tapia,Harvard University USA,0,95,BSED Mathematics,BS Computer Science
+Lylah Padilla,Harvard University USA,0,80,BS Criminology,BS Psychology
+Zayne Rush,Stanford University USA,0,65,BS Computer Science,BSED Mathematics
+Sariya Howe,Stanford University USA,0,92,BS Psychology,BS Criminology
+Kaleb Mcdowell,Harvard University USA,0,78,BSED Mathematics,BS Computer Science
+Elianna Velez,Stanford University USA,0,60,BS Criminology,BS Psychology
+Kiera Werner,Massachusetts Institute of Technology (MIT) USA,0,87,BS Computer Science,BSED Mathematics
+Madelynn Yu,Stanford University USA,0,84,BS Psychology,BS Criminology
+Tyree Mathews,Harvard University USA,0,68,BSED Mathematics,BS Computer Science
+Kian Curry,Stanford University USA,0,90,BS Criminology,BS Psychology
+Vienna Park,Stanford University USA,0,79,BS Computer Science,BSED Mathematics
+Kylan Carpenter,Harvard University USA,0,63,BS Psychology,BS Criminology
+Analia Moran,Stanford University USA,0,91,BSED Mathematics,BS Computer Science
+Aryana Hurley,Harvard University USA,0,77,BS Criminology,BS Psychology
+Kameron Baxter,Harvard University USA,0,55,BS Computer Science,BSED Mathematics
+Amina Hampton,University of Oxford UK,0,86,BS Psychology,BS Criminology
+Landry Mcpherson,Harvard University USA,0,82,BSED Mathematics,BS Computer Science
+Sariyah Yu,Harvard University USA,0,59,BS Criminology,BS Psychology
+Graeme Snyder,University of Cambridge UK,0,94,BS Computer Science,BSED Mathematics
+Alaia Mccarty,University of Oxford UK,0,83,BS Psychology,BS Criminology
+Kylan Baxter,Harvard University USA,0,62,BSED Mathematics,BS Computer Science
+Kolby Yu,Harvard University USA,0,60,BS Criminology,BS Psychology
+Kieran Leblanc,Harvard University USA,0,87,BS Computer Science,BSED Mathematics
+Emery Bass,Stanford University USA,0,84,BS Psychology,BS Criminology
+Kamiyah Werner,Stanford University USA,0,68,BSED Mathematics,BS Computer Science
+Naima Kent,Harvard University USA,0,90,BS Criminology,BS Psychology
+Kiera Werner,Stanford University USA,0,79,BS Computer Science,BSED Mathematics
+Kylan Baxter,Harvard University USA,0,63,BS Psychology,BS Criminology
+Charley Shepard,Stanford University USA,0,91,BSED Mathematics,BS Computer Science
+Landen Ritter,Stanford University USA,0,77,BS Criminology,BS Psychology
+Camila Paige,Stanford University USA,0,55,BS Computer Science,BSED Mathematics
+Kylan Baxter,Stanford University USA,0,86,BS Psychology,BS Criminology
+Kian Curry,Harvard University USA,0,82,BSED Mathematics,BS Computer Science
+Emory Dougherty,Stanford University USA,0,59,BS Criminology,BS Psychology
+Arya Melton,University of Oxford UK,0,94,BS Computer Science,BSED Mathematics
+Zariah Moran,Stanford University USA,0,83,BS Psychology,BS Criminology
+Kameron Baxter,Stanford University USA,0,62,BSED Mathematics,BS Computer Science
+Anaya Hoover,Harvard University USA,0,85,BS Criminology,BS Information Technology
+Liana Cherry,Harvard University USA,0,88,BS Computer Science,BS Biology
+Elisa Henson,Harvard University USA,0,70,BS Psychology,BS Accountancy
+Kylan Baxter,Harvard University USA,4,95,BSED Mathematics,BS Civil Engineering
+Kyra Werner,Harvard University USA,5,80,BS Criminology,BS Information Technology
+Kyleigh Yu,Stanford University USA,6,65,BS Computer Science,BS Biology
+Emilee Carrillo,University of Oxford UK,7,92,BS Psychology,BS Accountancy
+Kylan Baxter,Harvard University USA,8,78,BSED Mathematics,BS Civil Engineering
+Kyla Mullins,Harvard University USA,9,60,BS Criminology,BS Information Technology
+Landry Mcpherson,Harvard University USA,10,87,BS Computer Science,BS Biology
+John Doe,Harvard University USA,11,84,BS Psychology,BS Accountancy
+Jane Smith,Stanford University USA,1,68,BSED Mathematics,BS Civil Engineering
+Michael Johnson,Harvard University USA,1,90,BS Criminology,BS Information Technology
+Emily Davis,Harvard University USA,1,79,BS Computer Science,BS Biology
+Robert Anderson,Harvard University USA,1,63,BS Psychology,BS Accountancy
+Sarah White,Stanford University USA,1,91,BSED Mathematics,BS Civil Engineering
+Christopher Lee,Stanford University USA,1,77,BS Criminology,BS Information Technology
+Olivia Taylor,Harvard University USA,1,55,BS Computer Science,BS Biology
+Daniel Brown,Harvard University USA,1,86,BS Psychology,BS Accountancy
+Mia Harris,Stanford University USA,1,82,BSED Mathematics,BS Civil Engineering
+Liam Martin,Stanford University USA,1,59,BS Criminology,BS Information Technology
+Ava Garcia,Massachusetts Institute of Technology (MIT) USA,1,94,BS Computer Science,BS Biology
+Ethan Wilson,Harvard University USA,1,83,BS Psychology,BS Accountancy
+Emma Miller,Stanford University USA,1,62,BSED Mathematics,BS Civil Engineering
+Noah Davis,Stanford University USA,1,85,BS Criminology,BS Information Technology
+Sophia Clark,Harvard University USA,1,97,BS Computer Science,BS Biology
+Logan Turner,Harvard University USA,1,79,BS Psychology,BS Accountancy
+Mia Johnson,Stanford University USA,1,92,BSED Mathematics,BS Civil Engineering
+Aiden Thomas,Harvard University USA,1,78,BS Criminology,BS Information Technology
+Abigail Moore,Harvard University USA,1,60,BS Computer Science,BS Biology
+Jackson Brooks,Harvard University USA,1,87,BS Psychology,BS Accountancy
+Lily Walker,Massachusetts Institute of Technology (MIT) USA,a,84,BSED Mathematics,BS Civil Engineering
+Samuel Hall,Harvard University USA,1,68,BS Criminology,BS Information Technology
+Zoey Adams,Stanford University USA,1,90,BS Computer Science,BS Biology
+Owen Turner,Harvard University USA,1,79,BS Psychology,BS Accountancy
+Grace Taylor,Massachusetts Institute of Technology (MIT) USA,a,63,BSED Mathematics,BS Civil Engineering
+Benjamin Scott,Harvard University USA,1,91,BS Criminology,BS Information Technology
+Harper Baker,Harvard University USA,ADS,77,BS Computer Science,BS Biology
+Oliver Carter,Stanford University USA,1,55,BS Psychology,BS Accountancy
+Natalie King,Harvard University USA,1,86,BSED Mathematics,BS Civil Engineering
+Isaac Ward,Harvard University USA,1,82,BS Criminology,BS Information Technology
+Aria Lopez,Stanford University USA,1,59,BS Computer Science,BS Biology
+James Cooper,Stanford University USA,1,94,BS Psychology,BS Accountancy
+Stella Mitchell,Harvard University USA,1,83,BSED Mathematics,BS Civil Engineering
+Leo Perez,Stanford University USA,1,62,BS Criminology,BS Information Technology
+Hazel Rivera,Harvard University USA,S,85,BS Computer Science,BS Biology
+Elijah Reed,Stanford University USA,1,88,BS Psychology,BS Accountancy
+Penelope Torres,Harvard University USA,1,70,BSED Mathematics,BS Civil Engineering
+Wyatt Morgan,Harvard University USA,1,95,BS Criminology,BS Information Technology
+Addison Price,Stanford University USA,1,80,BS Computer Science,BS Biology
+Grayson Bell,Harvard University USA,1,65,BS Psychology,BS Accountancy
+Paisley Diaz,Harvard University USA,1,92,BSED Mathematics,BS Civil Engineering
+Lincoln Coleman,Massachusetts Institute of Technology (MIT) USA,1,78,BS Criminology,BS Information Technology
+Gabriella Hayes,University of Oxford UK,SD,60,BS Computer Science,BS Biology
+Zane Stewart,Harvard University USA,1,87,BS Psychology,BS Accountancy
+Bella Turner,Harvard University USA,1,84,BSED Mathematics,BS Civil Engineering
+Caleb Ross,Harvard University USA,1,68,BS Criminology,BS Information Technology
+Luna Young,Massachusetts Institute of Technology (MIT) USA,1,90,BS Computer Science,BS Biology
+Mateo Perry,Massachusetts Institute of Technology (MIT) USA,1,79,BS Psychology,BS Accountancy
+Hazel Collins,Harvard University USA,D,63,BSED Mathematics,BS Civil Engineering
+Hudson Hughes,California Institute of Technology (Caltech) USA,1,91,BS Criminology,BS Information Technology
+Aurora Morgan,Harvard University USA,1,77,BS Computer Science,BS Biology
+Carter Brooks,Harvard University USA,1,55,BS Psychology,BS Accountancy
+Nova Ward,Harvard University USA,1,86,BSED Mathematics,BS Civil Engineering
+Elijah Kelly,University of Oxford UK,1,82,BS Criminology,BS Information Technology
+Ivy Powell,Harvard University USA,1,59,BS Computer Science,BS Biology
+Sawyer Bailey,Harvard University USA,1,94,BS Psychology,BS Accountancy
+Clara Holmes,California Institute of Technology (Caltech) USA,1,83,BSED Mathematics,BS Civil Engineering
+Silas Sullivan,Imperial College London UK,1,62,BS Criminology,BS Information Technology
+Hazel Olson,University of Oxford UK,S,60,BS Computer Science,BS Biology
+Lincoln Holmes,Harvard University USA,1,87,BS Psychology,BS Accountancy
+Lucy Myers,Harvard University USA,1,84,BSED Mathematics,BS Civil Engineering
+Nolan Turner,Stanford University USA,1,68,BS Criminology,BS Information Technology
+Stella Schmidt,Stanford University USA,1,90,BS Computer Science,BS Biology
+Max Thompson,Harvard University USA,1,79,BS Psychology,BS Accountancy
+Mia Harper,University of Oxford UK,1,63,BSED Mathematics,BS Civil Engineering
+Oliver Turner,Harvard University USA,1,91,BS Criminology,BS Information Technology
+Scarlett Foster,Massachusetts Institute of Technology (MIT) USA,1,77,BS Computer Science,BS Biology
+Levi Russell,University of Oxford UK,1,55,BS Psychology,BS Accountancy
+Evelyn Reed,Harvard University USA,A,86,BSED Mathematics,BS Civil Engineering
+Jackson Turner,Harvard University USA,1,82,BS Criminology,BS Information Technology
+Harper Coleman,Stanford University USA,1,59,BS Computer Science,BS Biology
+Amelia Brooks,Stanford University USA,1,94,BS Psychology,BS Accountancy
+Mason Turner,Stanford University USA,1,83,BSED Mathematics,BS Civil Engineering
+Zoe Sullivan,Stanford University USA,1,62,BS Criminology,BS Information Technology
+Caleb Turner,Stanford University USA,1,85,BS Computer Science,BS Biology
+Aurora Hayes,Harvard University USA,1,88,BS Psychology,BS Accountancy
+Logan Turner,Stanford University USA,1,70,BSED Mathematics,BS Civil Engineering
+Ivy Bell,Stanford University USA,1,95,BS Criminology,BS Information Technology
+John Smith,Harvard University USA,1,80,BS Computer Science,BS Biology
+Emily Johnson,Harvard University USA,1,65,BS Psychology,BS Accountancy
+Ethan Parker,University of Oxford UK,1,92,BSED Mathematics,BS Civil Engineering
+Sophie Brown,Stanford University USA,1,78,BS Criminology,BS Information Technology
+Noah Wilson,Massachusetts Institute of Technology (MIT) USA,1,60,BS Computer Science,BS Biology
+Ava Turner,Harvard University USA,1,87,BS Psychology,BS Accountancy
+Olivia White,Harvard University USA,1,84,BSED Mathematics,BS Civil Engineering
+Logan Davis,Harvard University USA,1,68,BS Criminology,BS Information Technology
+Emma Adams,Stanford University USA,1,90,BS Computer Science,BS Biology
+Daniel Hall,Stanford University USA,1,79,BS Psychology,BS Accountancy
+Mia Martin,Harvard University USA,1,63,BSED Mathematics,BS Civil Engineering
+Liam Harris,Harvard University USA,1,91,BS Criminology,BS Information Technology
+Ella Thompson,Harvard University USA,1,77,BS Computer Science,BS Biology
+James Carter,University of Oxford UK,1,55,BS Psychology,BS Accountancy
+Avery Taylor,Stanford University USA,1,86,BSED Mathematics,BS Civil Engineering
+Isabella Rodriguez,Harvard University USA,1,82,BS Criminology,BS Information Technology
+Matthew Lee,Stanford University USA,1,59,BS Computer Science,BS Biology
+Evelyn King,University of Cambridge UK,1,94,BS Psychology,BS Accountancy
+Michael Harris,Harvard University USA,1,83,BSED Mathematics,BS Civil Engineering
+Aria Scott,University of Oxford UK,1,62,BS Criminology,BS Information Technology
+Elijah Baker,Harvard University USA,1,85,BS Computer Science,BS Biology
+Charlotte Clark,Harvard University USA,1,97,BS Psychology,BS Accountancy
+Lucas Turner,Stanford University USA,1,79,BSED Mathematics,BS Civil Engineering
+Grace Evans,Stanford University USA,1,92,BS Criminology,BS Information Technology
+Benjamin Turner,Harvard University USA,1,78,BS Computer Science,BS Biology
+Aria Nelson,Stanford University USA,1,60,BS Psychology,BS Accountancy
+Hazel Parker,Massachusetts Institute of Technology (MIT) USA,1,87,BSED Mathematics,BS Civil Engineering
+Zoey Thompson,Stanford University USA,1,84,BS Criminology,BS Information Technology
+Jacob Brooks,Harvard University USA,1,68,BS Computer Science,BS Biology
+Mia Hernandez,Stanford University USA,1,90,BS Psychology,BS Accountancy
+Landon Davis,Stanford University USA,1,79,BSED Mathematics,BS Civil Engineering
+Eva Adams,Harvard University USA,1,63,BS Criminology,BS Information Technology
+Jack Hall,Stanford University USA,1,91,BS Computer Science,BS Biology
+Ella Miller,Harvard University USA,1,77,BS Psychology,BS Accountancy
+Logan Martin,Harvard University USA,1,55,BSED Mathematics,BS Civil Engineering
+Avery Harris,University of Oxford UK,1,86,BS Criminology,BS Information Technology
+Isabella Thompson,Harvard University USA,1,82,BS Computer Science,BS Biology
+Matthew Carter,Harvard University USA,1,59,BS Psychology,BS Accountancy
+Evelyn Taylor,University of Cambridge UK,1,94,BSED Mathematics,BS Civil Engineering
+Michael Rodriguez,University of Oxford UK,1,83,BS Criminology,BS Information Technology
+Aria Lee,Harvard University USA,1,62,BS Computer Science,BS Biology
+Sophie Holmes,Harvard University USA,1,85,BS Psychology,BS Accountancy
+Noah Scott,Harvard University USA,1,88,BSED Mathematics,BS Civil Engineering
+Ava Baker,Stanford University USA,1,70,BS Criminology,BS Information Technology
+Olivia Turner,Stanford University USA,1,95,BS Computer Science,BS Biology
+Logan Clark,Harvard University USA,1,80,BS Psychology,BS Accountancy
+Emma Evans,Stanford University USA,1,65,BSED Mathematics,BS Civil Engineering
+Logan Davis,Harvard University USA,1,92,BS Criminology,BS Information Technology
+Emma Adams,Stanford University USA,1,78,BS Computer Science,BS Biology
+Daniel Hall,Stanford University USA,1,60,BS Psychology,BS Accountancy
+Mia Martin,Stanford University USA,1,87,BSED Mathematics,BS Civil Engineering
+Liam Harris,Stanford University USA,1,84,BS Criminology,BS Information Technology
+Ella Thompson,Harvard University USA,1,68,BS Computer Science,BS Biology
+James Carter,Stanford University USA,1,90,BS Psychology,BS Accountancy
+Avery Taylor,University of Oxford UK,1,79,BSED Mathematics,BS Civil Engineering
+Isabella Rodriguez,Stanford University USA,1,63,BS Criminology,BS Information Technology
+Matthew Lee,Stanford University USA,1,91,BS Computer Science,BS Biology
+Evelyn King,Harvard University USA,1,77,BS Psychology,BS Accountancy
+Michael Harris,Harvard University USA,1,55,BSED Mathematics,BS Civil Engineering
+Aria Scott,Harvard University USA,1,86,BS Criminology,BS Information Technology
+Elijah Baker,Harvard University USA,1,82,BS Computer Science,BS Biology
+Charlotte Clark,Harvard University USA,1,59,BS Psychology,BS Accountancy
+Lucas Turner,Stanford University USA,1,94,BSED Mathematics,BS Civil Engineering
+Grace Evans,University of Oxford UK,1,83,BS Criminology,BS Information Technology
+Benjamin Turner,Harvard University USA,1,62,BS Computer Science,BS Biology
+Aria Nelson,Harvard University USA,1,60,BS Psychology,BS Accountancy
+Hazel Parker,Harvard University USA,1,87,BSED Mathematics,BS Civil Engineering
+Zoey Thompson,Harvard University USA,1,84,BS Criminology,BS Information Technology
+Jacob Brooks,Stanford University USA,1,68,BS Computer Science,BS Biology
+Mia Hernandez,Harvard University USA,1,90,BS Psychology,BS Accountancy
+Landon Davis,Harvard University USA,1,79,BSED Mathematics,BS Civil Engineering
+Eva Adams,Harvard University USA,1,63,BS Criminology,BS Information Technology
+Jack Hall,Stanford University USA,1,91,BS Computer Science,BS Biology
+Ella Miller,Stanford University USA,1,65,BS Psychology,BS Accountancy
+Logan Martin,Harvard University USA,1,65,BSED Mathematics,BS Civil Engineering
+Avery Harris,Harvard University USA,1,65,BS Criminology,BS Information Technology
+Isabella Thompson,Stanford University USA,1,65,BS Computer Science,BS Biology
+Matthew Carter,Stanford University USA,1,65,BS Psychology,BS Accountancy
+Evelyn Taylor,Massachusetts Institute of Technology (MIT) USA,1,65,BSED Mathematics,BS Civil Engineering
+Michael Rodriguez,Harvard University USA,1,65,BS Criminology,BS Information Technology
+Aria Lee,Stanford University USA,1,65,BS Computer Science,BS Biology
+Sophie Holmes,Stanford University USA,1,65,BS Psychology,BS Accountancy
+Noah Scott,Harvard University USA,1,65,BSED Mathematics,BS Civil Engineering
+Ava Baker,Harvard University USA,1,65,BS Criminology,BS Information Technology
+Olivia Turner,Stanford University USA,1,65,BS Computer Science,BS Biology
+Logan Clark,Harvard University USA,1,65,BS Psychology,BS Accountancy
+Emma Evans,Harvard University USA,1,65,BSED Mathematics,BS Civil Engineering
+Lucas Turner,Harvard University USA,1,65,BS Criminology,BS Information Technology
+Darryl John,Massachusetts Institute of Technology (MIT) USA,1,65,BS Computer Science,BS Biology
+Johnny Sins,Harvard University USA,1,65,BS Psychology,BS Accountancy
+ABC MOORE,Stanford University USA,1,100,BSED Mathematics,BS Civil Engineering
+Darryl John,Harvard University USA,1,100,BS Criminology,BS Information Technology
+Hinata Shoyo,Massachusetts Institute of Technology (MIT) USA,1,100,BS Computer Science,BS Biology
+Garneee,aa,,,,
+OG,GO,GO,GO,GO,
+Jacbadsdasd,asdas,asdsa,adas,asdasd,
+a,b,c,d,e,
+a,b,c,d,,
+a,b,c,d,e,sdasdasd

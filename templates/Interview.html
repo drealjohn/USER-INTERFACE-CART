@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applicants Dashboard</title>
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/sb-admin-2.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/jquery.dataTables.css') }}" rel="stylesheet">
+</head>
+
+<body id="page-top">
+
+    <div id="wrapper">
+
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">CART <sup></sup></div>
+            </a>
+            <hr class="sidebar-divider my-0">
+            <hr class="sidebar-divider">
+        </ul>
+
+        <div id="content-wrapper" class="d-flex flex-column">
+            <div id="content">
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+            
+                            <button type="button" class="btn btn-danger ml-1" onclick="uploadFile()">
+                                Upload 
+                            </button>
+                            <button type="button" class="btn btn-info ml-1" id="enterInterviewButton" style="display: none;" onclick="enterInterview()">
+                                Enter Interview
+                            </button>
+                        </li>
+                        <li class="nav-item dropdown no-arrow d-sm-none">
+                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-search fa-fw"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                                aria-labelledby="searchDropdown">
+                                <form class="form-inline mr-auto w-100 navbar-search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control bg-light border-0 small"
+                                            placeholder="Search for..." aria-label="Search"
+                                            aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button">
+                                                <i class="fas fa-search fa-sm"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="container-fluid">
+                    <table id="csvData" class="display">
+                    
+                        <thead>
+                            <!-- DataTable headers will be populated dynamically -->
+                        </thead>
+                        <tbody>
+                            <!-- DataTable body will be populated dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
+    <script>
+        function uploadFile() {
+            var fileInput = document.createElement('input');
+            fileInput.type = 'file';
+            fileInput.accept = '.csv'; // Optional: specify accepted file types
+            fileInput.onchange = function(event) {
+                var file = event.target.files[0];
+                var formData = new FormData();
+                formData.append('file', file);
+    
+                $.ajax({
+                    url: '/upload_interview_file', // Update to match your Flask endpoint
+                    type: 'POST',
+                    data: formData,
+                    contentType: false,
+                    processData: false,
+                    success: function(response) {
+                        if (response.success) {
+                            var data = response.data;
+                            var table = $('<table>').addClass('table').attr('id', 'csvDataTable'); // Create DataTable with ID
+    
+                            // Define headers manually
+                            var headers = ['Name', 'University', 'Physical Fitness Test', 'Entrance Exam','GWA','First Chosen Program', 'Second Chosen Program', 'Rank', 'Interview'];
+                            var header = $('<thead>').append($('<tr>'));
+                            headers.forEach(function(headerText) {
+                                header.find('tr').append($('<th>').text(headerText));
+                            });
+                            table.append(header);
+    
+                            var body = $('<tbody>');
+                            data.forEach(function(item) {
+                                var row = $('<tr>');    
+                                headers.forEach(function(headerText) {
+                                    var cell;
+                                    if (headerText === 'Interview') {
+                                        // Add editable input field for Interview
+                                        cell = $('<td>').append($('<input>').attr('type', 'text').addClass('form-control').val(item[headerText]));
+                                    } else {
+                                        cell = $('<td>').text(item[headerText]);
+                                    }
+                                    row.append(cell);
+                                });
+                                body.append(row);
+                            });
+                            table.append(body);
+                            $('#csvData').empty().append(table); // Replace existing table with new DataTable
+                            $('#csvDataTable').DataTable({
+                                paging: false // Disable pagination
+                            }); // Initialize DataTable without paging
+    
+                            // Show "Enter Interview" button
+                            $('#enterInterviewButton').show();
+                        } else {
+                            alert('Error: ' + response.error);
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        alert('Error uploading file: ' + error);
+                    }
+                });
+            };
+            fileInput.click();
+        }
+    
+        function enterInterview() {
+            // Add functionality for the "Enter Interview" button here
+            // For example, you can get the edited Interview values from the table and handle them accordingly
+        
+            var interviewValues = [];
+            $('#csvDataTable tbody tr').each(function() {
+                var interview = $(this).find('input[type="text"]').val();
+                interviewValues.push(interview);
+            });
+            console.log('Edited Interview values:', interviewValues);
+        
+            // Generate CSV data
+            var csvContent = generateCSV(interviewValues);
+        
+            // Send CSV data to Flask backend
+            $.ajax({
+                type: "POST",
+                url: "/save_csv",
+                data: JSON.stringify({ csvContent: csvContent }),
+                contentType: "application/json",
+                success: function(response) {
+                    // Notify user that file has been saved
+                    alert("CSV file saved successfully.");
+                },
+                error: function(xhr, status, error) {
+                    console.error("Error saving CSV file:", error);
+                    // Notify user about the error
+                    alert("Error saving CSV file.");
+                }
+            });
+        }
+        
+        function generateCSV(interviewValues) {
+            // Extract data from the table
+            var dataToSave = [];
+            $('#csvDataTable tbody tr').each(function(index, row) {
+                var rowData = {};
+                $(row).find('td').each(function(index, cell) {
+                    var columnName = $('#csvDataTable thead th').eq(index).text().trim();
+                    if (columnName === "Name" || columnName === "University" || columnName === "Physical Fitness Test" || columnName === "Entrance Exam"|| columnName === "GWA" || columnName === "First Chosen Program" || columnName === "Second Chosen Program" || columnName === "Rank") {
+                        rowData[columnName] = $(cell).text().trim();
+                    }
+                });
+                // Add Interview field
+                rowData['Interview'] = interviewValues[index] || ''; // Insert Interview value or empty string if not available
+                dataToSave.push(rowData);
+                rowData['Course'] =  ''; // Insert Interview value or empty string if not available
+            });
+        
+            // Convert data to CSV format
+            var csvContent = "";
+            var headers = Object.keys(dataToSave[0]).join(",");
+            csvContent += headers + "\n";
+            dataToSave.forEach(function(row) {
+                var rowValues = Object.values(row).join(",");
+                csvContent += rowValues + "\n";
+            });
+        
+            return csvContent;
+        }
+        
+        function promptSaveCSV(csvContent) {
+            var blob = new Blob([csvContent], { type: 'text/csv' });
+            var link = document.createElement("a");
+            link.setAttribute("href", URL.createObjectURL(blob));
+            link.setAttribute("download", "Freshmen_Student_Final_Data_with_Course_and_Rank.csv");
+            link.style.display = 'none';
+            document.body.appendChild(link);
+            
+            // Prompt user to save the file
+            link.click();
+        
+            // Clean up
+            document.body.removeChild(link);
+        }
+    </script>        
+    
+    
+    
+</body>
+
+</html>

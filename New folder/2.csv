@@ -1,0 +1,901 @@
+Name,University,Physical Fitness Test,Entrance Exam,First Chosen Program,Second Chosen Program,Rank,GWA
+ABC MOORE,Stanford University USA,Passed,100,BSED Mathematics,BS Civil Engineering,1,87
+Abigail Moore,Stanford University USA,Passed,86,BSED Mathematics,BS Civil Engineering,15,72
+Abigail Robinson,Harvard University USA,Passed,72,BS Biology,BS Accountancy,22,97
+Abigail Thomas,University of Oxford UK,Passed,62,BS Biology,BS Accountancy,30,97
+Addison Price,Harvard University USA,Passed,96,BSED Mathematics,BS Civil Engineering,3,76
+Adrianna Novak,Massachusetts Institute of Technology (MIT) USA,Passed,77,BSED Mathematics,BS Civil Engineering,22,77
+Aiden Rivera,Stanford University USA,Passed,97,BS Information Technology,BS Biology,1,66
+Aiden Thomas,Harvard University USA,Passed,0,BS Biology,BS Accountancy,40,68
+Aiden Thompson,University of Oxford UK,Passed,30,BS Civil Engineering,BS Information Technology,36,72
+Aiden Wood,Harvard University USA,Passed,86,BS Information Technology,BS Biology,10,85
+Alexander Clark,Harvard University USA,Passed,64,BS Accountancy,BS Civil Engineering,25,84
+Alexander Moore,Harvard University USA,Passed,78,BS Biology,BS Accountancy,18,61
+Alexander Thompson,Stanford University USA,Passed,100,BS Biology,BS Accountancy,1,85
+Amelia Brooks,Stanford University USA,Passed,92,BS Criminology,BS Information Technology,4,67
+Amelia Harris,Stanford University USA,Passed,72,BS Information Technology,BS Biology,18,76
+Amelia Jones,Massachusetts Institute of Technology (MIT) USA,Passed,46,BS Information Technology,BS Biology,32,62
+Amelia Young,University of Oxford UK,Passed,89,BS Biology,BS Accountancy,11,80
+Andrew Anderson,University of Oxford UK,Passed,95,BS Biology,BS Accountancy,5,80
+Andrew Gonzalez,Harvard University USA,Passed,72,BS Civil Engineering,BS Information Technology,21,82
+Andrew Phillips,Harvard University USA,Passed,30,BS Information Technology,BS Biology,36,88
+Aria Evans,Stanford University USA,Passed,76,BS Information Technology,BS Biology,14,75
+Aria King,University of Cambridge UK,Passed,30,BS Biology,BS Accountancy,36,76
+Aria Lee,Harvard University USA,Passed,55,BSED Mathematics,BS Civil Engineering,36,95
+Aria Lopez,Harvard University USA,Passed,66,BSED Mathematics,BS Civil Engineering,27,78
+Aria Nelson,Stanford University USA,Passed,87,BS Accountancy,BS Civil Engineering,9,99
+Aria Scott,Imperial College London UK,Passed,59,BS Psychology,BS Accountancy,34,94
+Atticus Hawkins,Stanford University USA,Passed,94,BS Criminology,BS Information Technology,2,81
+Aurora Hayes,Stanford University USA,Passed,83,BS Criminology,BS Information Technology,16,62
+Aurora Morgan,Massachusetts Institute of Technology (MIT) USA,Passed,89,BSED Mathematics,BS Civil Engineering,9,71
+Aurora Santos,Stanford University USA,Passed,59,BSED Mathematics,BS Civil Engineering,32,67
+Ava Baker,Stanford University USA,Passed,59,BS Psychology,BS Accountancy,33,88
+Ava Clark,Massachusetts Institute of Technology (MIT) USA,Passed,70,BS Biology,BS Accountancy,24,99
+Ava Garcia,University of Cambridge UK,Passed,0,BS Accountancy,BS Civil Engineering,36,71
+Ava Khan,Stanford University USA,Passed,82,BS Psychology,BS Accountancy,15,90
+Ava Turner,Harvard University USA,Passed,92,BS Criminology,BS Information Technology,5,90
+Ava Walker,University of Oxford UK,Passed,66,BS Information Technology,BS Biology,23,74
+Ava White,Stanford University USA,Passed,91,BS Civil Engineering,BS Information Technology,7,76
+Avery Gonzalez,Harvard University USA,Passed,92,BS Civil Engineering,BS Information Technology,5,97
+Avery Green,Stanford University USA,Passed,86,BS Civil Engineering,BS Information Technology,13,98
+Avery Harris,Stanford University USA,Passed,90,BS Psychology,BS Accountancy,8,83
+Avery Lewis,Stanford University USA,Passed,28,BS Accountancy,BS Civil Engineering,34,67
+Avery Taylor,Harvard University USA,Passed,91,BS Computer Science,BS Biology,6,71
+Bella Turner,Stanford University USA,Passed,95,BS Computer Science,BS Biology,2,62
+Benjamin Green,Stanford University USA,Passed,57,BS Information Technology,BS Biology,29,88
+Benjamin Kim,Stanford University USA,Passed,59,BSED Mathematics,BS Civil Engineering,33,61
+Benjamin Martin,Harvard University USA,Passed,89,BS Civil Engineering,BS Information Technology,10,76
+Benjamin Richardson,Stanford University USA,Passed,82,BS Civil Engineering,BS Information Technology,15,64
+Benjamin Scott,Stanford University USA,Passed,64,BS Psychology,BS Accountancy,26,81
+Benjamin Turner,Stanford University USA,Passed,88,BSED Mathematics,BS Civil Engineering,10,78
+Caleb Ross,Stanford University USA,Passed,69,BS Psychology,BS Accountancy,23,75
+Caleb Turner,Harvard University USA,Passed,94,BSED Mathematics,BS Civil Engineering,4,65
+Camila Hayes,Harvard University USA,Passed,75,BS Information Technology,BS Biology,15,81
+Camila Rivera,University of Oxford UK,Passed,62,BS Accountancy,BS Civil Engineering,26,85
+Carter Brooks,Harvard University USA,Passed,74,BS Criminology,BS Information Technology,22,60
+Carter Hall,Harvard University USA,Passed,97,BS Civil Engineering,BS Information Technology,3,90
+Carter Wood,Harvard University USA,Passed,44,BS Biology,BS Accountancy,34,68
+Cassandra Graham,Stanford University USA,Passed,85,BSED Mathematics,BS Civil Engineering,17,81
+Charlotte Baker,Stanford University USA,Passed,58,BS Civil Engineering,BS Information Technology,31,93
+Charlotte Clark,Harvard University USA,Passed,83,BS Criminology,BS Information Technology,15,63
+Charlotte Walker,Harvard University USA,Passed,81,BS Information Technology,BS Biology,12,71
+Charlotte Wilson,Harvard University USA,Passed,88,BS Accountancy,BS Civil Engineering,7,63
+Chloe Anderson,Harvard University USA,Passed,37,BS Civil Engineering,BS Information Technology,34,74
+Chloe Moore,Stanford University USA,Passed,98,BS Biology,BS Accountancy,2,93
+Chloe Williams,Stanford University USA,Passed,73,BS Civil Engineering,BS Information Technology,20,99
+Christopher Lee,Harvard University USA,Passed,65,BS Biology,BS Accountancy,28,93
+Clara Holmes,Stanford University USA,Passed,87,BS Computer Science,BS Biology,8,62
+D,Stanford University USA,Passed,0,BS Criminology,BS Information Technology,35,74
+Damian Hunt,Harvard University USA,Passed,88,BS Criminology,BS Information Technology,8,98
+Daniel Adams,University of Oxford UK,Passed,90,BS Information Technology,BS Biology,6,68
+Daniel Brown,University of Oxford UK,Passed,72,BS Information Technology,BS Biology,19,84
+Daniel Hall,Massachusetts Institute of Technology (MIT) USA,Passed,84,BS Criminology,BS Information Technology,13,70
+Daniel Lee,Stanford University USA,Passed,40,BS Information Technology,BS Biology,33,74
+Darryl John,Stanford University USA,Passed,97,BSED Mathematics,BS Civil Engineering,2,83
+David Adams,Stanford University USA,Passed,38,BS Biology,BS Accountancy,35,64
+David Martin,Stanford University USA,Passed,86,BS Accountancy,BS Civil Engineering,10,89
+David Rodriguez,Harvard University USA,Passed,88,BS Biology,BS Accountancy,13,61
+Desmond Wong,Harvard University USA,Passed,68,BS Psychology,BS Accountancy,24,94
+Dominic Clarke,Harvard University USA,Passed,78,BS Psychology,BS Accountancy,18,83
+Elena Vargas,Harvard University USA,Passed,63,BS Computer Science,BS Biology,27,88
+Elijah Baker,University of Oxford UK,Passed,94,BSED Mathematics,BS Civil Engineering,7,77
+Elijah Kelly,Stanford University USA,Passed,93,BS Psychology,BS Accountancy,4,88
+Elijah Reed,University of Oxford UK,Passed,98,BS Criminology,BS Information Technology,1,73
+Elijah Robinson,Harvard University USA,Passed,89,BS Information Technology,BS Biology,7,69
+Elijah Thomas,Harvard University USA,Passed,71,BS Biology,BS Accountancy,23,88
+Elijah Williams,Stanford University USA,Passed,58,BS Accountancy,BS Civil Engineering,28,78
+Elise Zimmerman,Harvard University USA,Passed,84,BS Computer Science,BS Biology,12,87
+Ella Bailey,Harvard University USA,Passed,73,BS Information Technology,BS Biology,17,93
+Ella Martinez,Harvard University USA,Passed,92,BS Biology,BS Accountancy,7,91
+Ella Miller,Stanford University USA,Passed,84,BS Criminology,BS Information Technology,12,81
+Ella Stewart,Stanford University USA,Passed,57,BS Accountancy,BS Civil Engineering,29,64
+Ella Thompson,Harvard University USA,Passed,79,BSED Mathematics,BS Civil Engineering,21,63
+Eloise Kim,Massachusetts Institute of Technology (MIT) USA,Passed,86,BS Computer Science,BS Biology,9,61
+Emily Carter,Harvard University USA,Passed,79,BS Civil Engineering,BS Information Technology,16,67
+Emily Davis,Stanford University USA,Passed,65,BS Accountancy,BS Civil Engineering,24,94
+Emily Johnson,Harvard University USA,Passed,70,BS Criminology,BS Information Technology,25,83
+Emily Lee,Massachusetts Institute of Technology (MIT) USA,Passed,5,BS Accountancy,BS Civil Engineering,35,64
+Emily Moore,Stanford University USA,Passed,54,BS Civil Engineering,BS Information Technology,32,86
+Emily Rodriguez,Stanford University USA,Passed,91,BS Psychology,BS Accountancy,5,85
+Emily Williams,Harvard University USA,Passed,89,BS Civil Engineering,BS Information Technology,9,77
+Emma Adams,Massachusetts Institute of Technology (MIT) USA,Passed,87,BSED Mathematics,BS Civil Engineering,14,93
+Emma Evans,Harvard University USA,Passed,62,BS Computer Science,BS Biology,30,85
+Emma Miller,Harvard University USA,Passed,0,BS Information Technology,BS Biology,38,78
+Emma Reed,Harvard University USA,Passed,42,BS Accountancy,BS Civil Engineering,31,96
+Emma Stewart,Stanford University USA,Passed,90,BS Civil Engineering,BS Information Technology,8,99
+Emma Wilson,Massachusetts Institute of Technology (MIT) USA,Passed,78,BS Accountancy,BS Civil Engineering,14,60
+Ethan Adams,Harvard University USA,Passed,67,BS Biology,BS Accountancy,25,91
+Ethan Carter,Harvard University USA,Passed,87,BS Civil Engineering,BS Information Technology,12,84
+Ethan Martin,Stanford University USA,Passed,24,BS Civil Engineering,BS Information Technology,37,75
+Ethan Parker,Harvard University USA,Passed,95,BS Computer Science,BS Biology,4,82
+Ethan Wilson,University of Oxford UK,Passed,62,BS Civil Engineering,BS Information Technology,28,99
+Eva Adams,Harvard University USA,Passed,60,BS Psychology,BS Accountancy,31,90
+Evelyn Jenkins,Stanford University USA,Passed,99,BS Civil Engineering,BS Information Technology,1,61
+Evelyn King,Harvard University USA,Passed,86,BS Criminology,BS Information Technology,11,92
+Evelyn Reed,Harvard University USA,Passed,86,BS Computer Science,BS Biology,11,65
+Evelyn Robinson,Harvard University USA,Passed,28,BS Biology,BS Accountancy,37,78
+Evelyn Stewart,Stanford University USA,Passed,82,BS Accountancy,BS Civil Engineering,12,77
+Evelyn Taylor,Stanford University USA,Passed,91,BS Computer Science,BS Biology,7,92
+Ezekiel Cameron,Harvard University USA,Passed,91,BS Psychology,BS Accountancy,6,96
+Finnegan Schultz,Harvard University USA,Passed,62,BS Psychology,BS Accountancy,29,85
+Gabriel Diaz,Harvard University USA,Passed,69,BS Accountancy,BS Civil Engineering,21,93
+Gabriel Wilson,Imperial College London UK,Passed,66,BS Civil Engineering,BS Information Technology,26,82
+Gabriella Hayes,Harvard University USA,Passed,70,BSED Mathematics,BS Civil Engineering,26,63
+Garrett Fuller,Harvard University USA,Passed,91,BS Psychology,BS Accountancy,7,61
+Grace Cooper,Harvard University USA,Passed,74,BS Accountancy,BS Civil Engineering,17,82
+Grace Evans,Stanford University USA,Passed,85,BS Psychology,BS Accountancy,13,91
+Grace Hall,Harvard University USA,Passed,51,BS Biology,BS Accountancy,33,78
+Grace Taylor,Harvard University USA,Passed,0,BS Computer Science,BS Biology,35,76
+Grayson Bell,Harvard University USA,Passed,71,BS Criminology,BS Information Technology,24,83
+Harper Bailey,Harvard University USA,Passed,64,BS Biology,BS Accountancy,29,66
+Harper Baker,University of Oxford UK,Passed,94,BSED Mathematics,BS Civil Engineering,5,99
+Harper Bishop,Stanford University USA,Passed,90,BSED Mathematics,BS Civil Engineering,8,92
+Harper Coleman,Stanford University USA,Passed,60,BSED Mathematics,BS Civil Engineering,31,71
+Harper Diaz,Harvard University USA,Passed,41,BS Civil Engineering,BS Information Technology,33,93
+Harper Jackson,Harvard University USA,Passed,72,BS Accountancy,BS Civil Engineering,19,99
+Harper Jones,Harvard University USA,Passed,87,BS Biology,BS Accountancy,14,72
+Harper Nelson,Stanford University USA,Passed,73,BS Biology,BS Accountancy,21,75
+Harper Turner,Harvard University USA,Passed,97,BS Biology,BS Accountancy,3,95
+Hazel Collins,Stanford University USA,Passed,75,BS Computer Science,BS Biology,21,72
+Hazel Olson,Harvard University USA,Passed,55,BSED Mathematics,BS Civil Engineering,37,83
+Hazel Parker,University of Oxford UK,Passed,95,BS Computer Science,BS Biology,3,64
+Hazel Rivera,Stanford University USA,Passed,0,BSED Mathematics,BS Civil Engineering,39,87
+Henry Baker,Harvard University USA,Passed,73,BS Accountancy,BS Civil Engineering,18,80
+Henry Gonzalez,Harvard University USA,Passed,67,BS Information Technology,BS Biology,22,79
+Henry Perez,Stanford University USA,Passed,91,BS Accountancy,BS Civil Engineering,4,78
+Hinata Shoyo,Massachusetts Institute of Technology (MIT) USA,Passed,100,BS Computer Science,BS Biology,1,65
+Hudson Hughes,Stanford University USA,Passed,52,BS Psychology,BS Accountancy,37,72
+Isaac Park,University of Oxford UK,Passed,95,BS Psychology,BS Accountancy,2,84
+Isaac Ward,Harvard University USA,Passed,93,BS Psychology,BS Accountancy,3,69
+Isabella Rodriguez,University of Oxford UK,Passed,77,BS Psychology,BS Accountancy,20,76
+Isabella Thompson,Stanford University USA,Passed,79,BSED Mathematics,BS Civil Engineering,20,81
+Ivy Bell,Harvard University USA,Passed,85,BS Psychology,BS Accountancy,12,81
+Ivy Powell,Harvard University USA,Passed,77,BSED Mathematics,BS Civil Engineering,23,96
+Jack Garcia,Harvard University USA,Passed,62,BS Civil Engineering,BS Information Technology,29,71
+Jack Hall,Stanford University USA,Passed,87,BSED Mathematics,BS Civil Engineering,13,60
+Jack Reed,University of Oxford UK,Passed,67,BS Civil Engineering,BS Information Technology,25,74
+Jack Scott,Harvard University USA,Passed,88,BS Civil Engineering,BS Information Technology,11,91
+Jackson Anderson,Harvard University USA,Passed,85,BS Biology,BS Accountancy,15,89
+Jackson Baker,Stanford University USA,Passed,92,BS Information Technology,BS Biology,5,86
+Jackson Brooks,Harvard University USA,Passed,0,BS Criminology,BS Information Technology,36,60
+Jackson Johnson,Harvard University USA,Passed,66,BS Biology,BS Accountancy,26,90
+Jackson Turner,Harvard University USA,Passed,78,BS Psychology,BS Accountancy,17,94
+Jacob Brooks,Massachusetts Institute of Technology (MIT) USA,Passed,65,BSED Mathematics,BS Civil Engineering,29,86
+Jacob Patel,Harvard University USA,Passed,77,BSED Mathematics,BS Civil Engineering,25,98
+James Carter,Harvard University USA,Passed,63,BS Criminology,BS Information Technology,28,67
+James Cooper,Harvard University USA,Passed,74,BS Criminology,BS Information Technology,23,74
+James Harris,Stanford University USA,Passed,89,BS Accountancy,BS Civil Engineering,6,81
+James Scott,Harvard University USA,Passed,38,BS Accountancy,BS Civil Engineering,32,66
+James Taylor,Massachusetts Institute of Technology (MIT) USA,Passed,70,BS Information Technology,BS Biology,20,76
+Jane Smith,Harvard University USA,Passed,65,BS Information Technology,BS Biology,25,96
+Jasmine Parker,Stanford University USA,Passed,79,BS Criminology,BS Information Technology,20,66
+John Doe,Stanford University USA,Passed,0,BS Civil Engineering,BS Information Technology,38,79
+John Smith,Stanford University USA,Passed,88,BSED Mathematics,BS Civil Engineering,12,94
+Johnny Sins,Harvard University USA,Passed,65,BS Psychology,BS Accountancy,25,75
+Joseph Diaz,Harvard University USA,Passed,95,BS Civil Engineering,BS Information Technology,4,74
+Joseph Martinez,Harvard University USA,Passed,70,BS Civil Engineering,BS Information Technology,23,95
+Joseph Parker,Massachusetts Institute of Technology (MIT) USA,Passed,62,BS Information Technology,BS Biology,27,70
+Juliette Ruiz,Harvard University USA,Passed,83,BS Computer Science,BS Biology,13,61
+Juniper Patel,Stanford University USA,Passed,77,BSED Mathematics,BS Civil Engineering,24,69
+Kiera Holland,Harvard University USA,Passed,63,BS Computer Science,BS Biology,26,94
+Landon Davis,Harvard University USA,Passed,78,BS Computer Science,BS Biology,20,95
+Layla Garcia,Harvard University USA,Passed,90,BS Accountancy,BS Civil Engineering,5,83
+Layla Jackson,Harvard University USA,Passed,61,BS Civil Engineering,BS Information Technology,30,74
+Layla Phillips,Harvard University USA,Passed,76,BS Biology,BS Accountancy,19,81
+Leo Perez,Harvard University USA,Passed,73,BS Psychology,BS Accountancy,22,75
+Levi Russell,Stanford University USA,Passed,59,BS Criminology,BS Information Technology,30,93
+Liam Harris,California Institute of Technology (Caltech) USA,Passed,90,BS Psychology,BS Accountancy,9,77
+Liam Martin,Harvard University USA,Passed,90,BS Biology,BS Accountancy,8,79
+Liam Taylor,Harvard University USA,Passed,100,BS Accountancy,BS Civil Engineering,1,89
+Liam Thompson,Harvard University USA,Passed,71,BS Accountancy,BS Civil Engineering,20,81
+Lily Davis,Harvard University USA,Passed,92,BS Information Technology,BS Biology,4,75
+Lily Miller,Harvard University USA,Passed,74,BS Accountancy,BS Civil Engineering,16,78
+Lily Walker,Stanford University USA,Passed,82,BS Computer Science,BS Biology,17,79
+Lincoln Coleman,Harvard University USA,Passed,99,BS Psychology,BS Accountancy,1,91
+Lincoln Holmes,Harvard University USA,Passed,91,BS Criminology,BS Information Technology,7,93
+Logan Brown,University of Oxford UK,Passed,48,BS Accountancy,BS Civil Engineering,30,77
+Logan Clark,Harvard University USA,Passed,83,BS Criminology,BS Information Technology,14,80
+Logan Davis,Harvard University USA,Passed,60,BS Psychology,BS Accountancy,32,84
+Logan Martin,Stanford University USA,Passed,68,BS Computer Science,BS Biology,25,64
+Logan Smith,Stanford University USA,Passed,90,BS Biology,BS Accountancy,10,60
+Logan Turner,Stanford University USA,Passed,75,BS Biology,BS Accountancy,20,77
+Lucas Evans,University of Oxford UK,Passed,96,BS Biology,BS Accountancy,4,73
+Lucas Hayes,Stanford University USA,Passed,30,BS Information Technology,BS Biology,35,83
+Lucas Johnson,Stanford University USA,Passed,85,BS Civil Engineering,BS Information Technology,14,96
+Lucas Thompson,University of Oxford UK,Passed,86,BS Computer Science,BS Biology,10,99
+Lucas Turner,Harvard University USA,Passed,62,BS Computer Science,BS Biology,29,84
+Lucy Myers,Massachusetts Institute of Technology (MIT) USA,Passed,80,BS Computer Science,BS Biology,19,60
+Luna Young,Harvard University USA,Passed,53,BSED Mathematics,BS Civil Engineering,38,75
+Lydia Foster,Harvard University USA,Passed,80,BSED Mathematics,BS Civil Engineering,19,61
+Madeline Griffin,Stanford University USA,Passed,70,BS Computer Science,BS Biology,23,72
+Madison Davis,Massachusetts Institute of Technology (MIT) USA,Passed,84,BS Information Technology,BS Biology,11,63
+Madison Harris,Harvard University USA,Passed,30,BS Accountancy,BS Civil Engineering,33,89
+Madison Lee,Stanford University USA,Passed,97,BS Accountancy,BS Civil Engineering,2,66
+Mason Donovan,Harvard University USA,Passed,65,BS Criminology,BS Information Technology,27,99
+Mason Turner,Harvard University USA,Passed,81,BS Computer Science,BS Biology,18,76
+Mateo Perry,Harvard University USA,Passed,0,BS Criminology,BS Information Technology,34,68
+Matthew Carter,Harvard University USA,Passed,63,BS Criminology,BS Information Technology,29,64
+Matthew Johnson,Harvard University USA,Passed,92,BS Civil Engineering,BS Information Technology,6,64
+Matthew Lee,Harvard University USA,Passed,55,BSED Mathematics,BS Civil Engineering,35,63
+Matthew Lewis,Massachusetts Institute of Technology (MIT) USA,Passed,75,BS Accountancy,BS Civil Engineering,15,73
+Matthew Miller,Harvard University USA,Passed,57,BS Biology,BS Accountancy,32,97
+Max Thompson,Harvard University USA,Passed,79,BS Criminology,BS Information Technology,18,81
+Mia Brown,Stanford University USA,Passed,90,BS Biology,BS Accountancy,9,66
+Mia Harper,Massachusetts Institute of Technology (MIT) USA,Passed,56,BS Computer Science,BS Biology,32,68
+Mia Harris,Harvard University USA,Passed,55,BS Information Technology,BS Biology,30,92
+Mia Hernandez,University of Oxford UK,Passed,92,BS Criminology,BS Information Technology,6,82
+Mia Johnson,Stanford University USA,Passed,77,BS Information Technology,BS Biology,13,80
+Mia Martin,Harvard University USA,Passed,68,BS Computer Science,BS Biology,24,77
+Mia Perez,Harvard University USA,Passed,74,BS Civil Engineering,BS Information Technology,19,60
+Mia Smith,Stanford University USA,Passed,59,BS Information Technology,BS Biology,28,75
+Mia Thomas,Harvard University USA,Passed,97,BS Information Technology,BS Biology,2,70
+Mia Young,Harvard University USA,Passed,77,BS Civil Engineering,BS Information Technology,17,87
+Michael Evans,Stanford University USA,Passed,63,BS Civil Engineering,BS Information Technology,27,74
+Michael Harris,California Institute of Technology (Caltech) USA,Passed,82,BS Computer Science,BS Biology,16,88
+Michael Johnson,Stanford University USA,Passed,65,BS Biology,BS Accountancy,27,84
+Michael Rodriguez,Stanford University USA,Passed,77,BS Psychology,BS Accountancy,19,96
+Michael White,Massachusetts Institute of Technology (MIT) USA,Passed,72,BS Civil Engineering,BS Information Technology,22,82
+Natalie King,Stanford University USA,Passed,59,BS Computer Science,BS Biology,31,64
+Nathanial Reynolds,Harvard University USA,Passed,62,BS Psychology,BS Accountancy,28,91
+Nicholas Jones,Harvard University USA,Passed,84,BS Biology,BS Accountancy,16,76
+Nicholas Rodriguez,Harvard University USA,Passed,24,BS Information Technology,BS Biology,37,91
+Noah Davis,Harvard University USA,Passed,0,BS Biology,BS Accountancy,39,69
+Noah Jenkins,Harvard University USA,Passed,75,BS Civil Engineering,BS Information Technology,18,82
+Noah Martinez,Harvard University USA,Passed,53,BS Information Technology,BS Biology,31,78
+Noah Parker,Harvard University USA,Passed,88,BS Information Technology,BS Biology,9,66
+Noah Scott,University of Oxford UK,Passed,82,BS Computer Science,BS Biology,15,73
+Noah Wilson,University of Oxford UK,Passed,65,BSED Mathematics,BS Civil Engineering,28,64
+Nolan Turner,Harvard University USA,Passed,63,BS Psychology,BS Accountancy,27,74
+Nova Ward,Stanford University USA,Passed,51,BS Computer Science,BS Biology,34,79
+Oliver Carter,Stanford University USA,Passed,55,BS Psychology,BS Accountancy,36,60
+Oliver Parker,California Institute of Technology (Caltech) USA,Passed,69,BS Civil Engineering,BS Information Technology,24,81
+Oliver Turner,Harvard University USA,Passed,37,BS Information Technology,BS Biology,34,60
+Olivia Chang,Stanford University USA,Passed,55,BS Criminology,BS Information Technology,32,75
+Olivia Richardson,Stanford University USA,Passed,97,BS Civil Engineering,BS Information Technology,2,98
+Olivia Smith,Harvard University USA,Passed,67,BS Information Technology,BS Biology,21,71
+Olivia Taylor,Harvard University USA,Passed,88,BS Accountancy,BS Civil Engineering,8,79
+Olivia Turner,Massachusetts Institute of Technology (MIT) USA,Passed,94,BSED Mathematics,BS Civil Engineering,6,60
+Olivia White,Harvard University USA,Passed,30,BS Civil Engineering,BS Information Technology,35,98
+Owen Turner,Stanford University USA,Passed,76,BS Criminology,BS Information Technology,21,97
+Paisley Diaz,Stanford University USA,Passed,54,BS Computer Science,BS Biology,33,66
+Penelope Choi,Harvard University USA,Passed,92,BS Computer Science,BS Biology,5,67
+Penelope Torres,Harvard University USA,Passed,72,BS Computer Science,BS Biology,22,86
+Robert Anderson,Harvard University USA,Passed,0,BS Civil Engineering,BS Information Technology,39,81
+Roman Sullivan,Harvard University USA,Passed,82,BS Psychology,BS Accountancy,14,77
+Samuel Hall,Stanford University USA,Passed,89,BS Psychology,BS Accountancy,10,100
+Samuel Perez,Stanford University USA,Passed,20,BS Biology,BS Accountancy,38,89
+Samuel Scott,Harvard University USA,Passed,80,BS Biology,BS Accountancy,17,84
+Sarah White,Stanford University USA,Passed,65,BS Information Technology,BS Biology,24,84
+Sawyer Bailey,Harvard University USA,Passed,58,BS Criminology,BS Information Technology,31,64
+Scarlett Cooper,Stanford University USA,Passed,92,BS Biology,BS Accountancy,6,72
+Scarlett Foster,Harvard University USA,Passed,82,BSED Mathematics,BS Civil Engineering,18,78
+Scarlett Lee,Stanford University USA,Passed,85,BS Accountancy,BS Civil Engineering,11,84
+Silas Flynn,Harvard University USA,Passed,79,BS Criminology,BS Information Technology,17,94
+Silas Sullivan,Harvard University USA,Passed,76,BS Psychology,BS Accountancy,21,62
+Sofia Garcia,Harvard University USA,Passed,67,BS Accountancy,BS Civil Engineering,22,97
+Sofia Lewis,Stanford University USA,Passed,89,BS Information Technology,BS Biology,8,73
+Sofia Nelson,Stanford University USA,Passed,59,BS Biology,BS Accountancy,31,84
+Sophia Carter,Harvard University USA,Passed,61,BS Accountancy,BS Civil Engineering,27,79
+Sophia Clark,Harvard University USA,Passed,0,BS Accountancy,BS Civil Engineering,37,87
+Sophia Gupta,Harvard University USA,Passed,94,BS Criminology,BS Information Technology,3,63
+Sophia King,Harvard University USA,Passed,94,BS Accountancy,BS Civil Engineering,3,83
+Sophie Brown,Massachusetts Institute of Technology (MIT) USA,Passed,85,BS Psychology,BS Accountancy,11,95
+Sophie Holmes,Harvard University USA,Passed,86,BS Criminology,BS Information Technology,10,67
+Stella Mitchell,Harvard University USA,Passed,0,BS Computer Science,BS Biology,36,100
+Stella Moore,Harvard University USA,Passed,85,BSED Mathematics,BS Civil Engineering,16,78
+Stella Schmidt,Stanford University USA,Passed,88,BSED Mathematics,BS Civil Engineering,11,99
+Tristan Shepard,Stanford University USA,Passed,55,BS Criminology,BS Information Technology,33,71
+Vincent Barker,Harvard University USA,Passed,87,BS Criminology,BS Information Technology,9,83
+Violet Nguyen,Stanford University USA,Passed,60,BSED Mathematics,BS Civil Engineering,30,84
+William Richardson,California Institute of Technology (Caltech) USA,Passed,66,BS Accountancy,BS Civil Engineering,23,91
+William Rodriguez,Stanford University USA,Passed,80,BS Accountancy,BS Civil Engineering,13,89
+William Santos,Harvard University USA,Passed,83,BS Computer Science,BS Biology,14,85
+William Walker,University of Cambridge UK,Passed,95,BS Information Technology,BS Biology,3,64
+Wyatt Morgan,Harvard University USA,Passed,61,BS Psychology,BS Accountancy,30,99
+Xavier Montgomery,Stanford University USA,Passed,63,BS Computer Science,BS Biology,28,99
+Xavier Roth,Stanford University USA,Passed,79,BS Criminology,BS Information Technology,19,99
+Zane Stewart,Harvard University USA,Passed,67,BS Criminology,BS Information Technology,26,85
+Zoe Sullivan,Stanford University USA,Passed,57,BS Psychology,BS Accountancy,35,77
+Zoey Adams,Stanford University USA,Passed,57,BSED Mathematics,BS Civil Engineering,34,93
+Zoey Hayes,Harvard University USA,Passed,89,BS Biology,BS Accountancy,12,66
+Zoey Jenkins,Stanford University USA,Passed,62,BS Information Technology,BS Biology,26,97
+Zoey Rivera,Stanford University USA,Passed,74,BS Information Technology,BS Biology,16,94
+Zoey Thompson,Harvard University USA,Passed,80,BS Psychology,BS Accountancy,16,97
+,,,,,,,61
+,,,,,,,69
+,,,,,,,86
+,,,,,,,77
+,,,,,,,80
+,,,,,,,90
+,,,,,,,68
+,,,,,,,78
+,,,,,,,81
+,,,,,,,96
+,,,,,,,93
+,,,,,,,98
+,,,,,,,68
+,,,,,,,67
+,,,,,,,66
+,,,,,,,76
+,,,,,,,90
+,,,,,,,84
+,,,,,,,98
+,,,,,,,63
+,,,,,,,100
+,,,,,,,100
+,,,,,,,92
+,,,,,,,68
+,,,,,,,88
+,,,,,,,79
+,,,,,,,84
+,,,,,,,62
+,,,,,,,64
+,,,,,,,93
+,,,,,,,79
+,,,,,,,78
+,,,,,,,66
+,,,,,,,73
+,,,,,,,67
+,,,,,,,90
+,,,,,,,92
+,,,,,,,97
+,,,,,,,86
+,,,,,,,76
+,,,,,,,75
+,,,,,,,96
+,,,,,,,77
+,,,,,,,82
+,,,,,,,69
+,,,,,,,100
+,,,,,,,99
+,,,,,,,99
+,,,,,,,67
+,,,,,,,61
+,,,,,,,68
+,,,,,,,86
+,,,,,,,85
+,,,,,,,67
+,,,,,,,93
+,,,,,,,73
+,,,,,,,97
+,,,,,,,72
+,,,,,,,72
+,,,,,,,66
+,,,,,,,66
+,,,,,,,74
+,,,,,,,75
+,,,,,,,97
+,,,,,,,60
+,,,,,,,81
+,,,,,,,73
+,,,,,,,86
+,,,,,,,88
+,,,,,,,67
+,,,,,,,77
+,,,,,,,99
+,,,,,,,91
+,,,,,,,69
+,,,,,,,87
+,,,,,,,74
+,,,,,,,61
+,,,,,,,83
+,,,,,,,98
+,,,,,,,75
+,,,,,,,88
+,,,,,,,60
+,,,,,,,79
+,,,,,,,66
+,,,,,,,74
+,,,,,,,83
+,,,,,,,78
+,,,,,,,65
+,,,,,,,99
+,,,,,,,66
+,,,,,,,81
+,,,,,,,71
+,,,,,,,98
+,,,,,,,83
+,,,,,,,75
+,,,,,,,90
+,,,,,,,85
+,,,,,,,66
+,,,,,,,85
+,,,,,,,75
+,,,,,,,97
+,,,,,,,92
+,,,,,,,73
+,,,,,,,66
+,,,,,,,100
+,,,,,,,71
+,,,,,,,79
+,,,,,,,66
+,,,,,,,94
+,,,,,,,78
+,,,,,,,96
+,,,,,,,76
+,,,,,,,77
+,,,,,,,83
+,,,,,,,63
+,,,,,,,75
+,,,,,,,89
+,,,,,,,62
+,,,,,,,85
+,,,,,,,89
+,,,,,,,100
+,,,,,,,71
+,,,,,,,75
+,,,,,,,94
+,,,,,,,70
+,,,,,,,98
+,,,,,,,91
+,,,,,,,87
+,,,,,,,83
+,,,,,,,82
+,,,,,,,62
+,,,,,,,60
+,,,,,,,66
+,,,,,,,65
+,,,,,,,91
+,,,,,,,72
+,,,,,,,89
+,,,,,,,80
+,,,,,,,83
+,,,,,,,95
+,,,,,,,91
+,,,,,,,83
+,,,,,,,67
+,,,,,,,88
+,,,,,,,90
+,,,,,,,77
+,,,,,,,80
+,,,,,,,63
+,,,,,,,91
+,,,,,,,79
+,,,,,,,65
+,,,,,,,78
+,,,,,,,78
+,,,,,,,97
+,,,,,,,83
+,,,,,,,92
+,,,,,,,99
+,,,,,,,66
+,,,,,,,95
+,,,,,,,94
+,,,,,,,94
+,,,,,,,68
+,,,,,,,91
+,,,,,,,86
+,,,,,,,64
+,,,,,,,62
+,,,,,,,100
+,,,,,,,91
+,,,,,,,66
+,,,,,,,92
+,,,,,,,93
+,,,,,,,87
+,,,,,,,67
+,,,,,,,60
+,,,,,,,64
+,,,,,,,99
+,,,,,,,91
+,,,,,,,84
+,,,,,,,85
+,,,,,,,99
+,,,,,,,87
+,,,,,,,73
+,,,,,,,82
+,,,,,,,98
+,,,,,,,60
+,,,,,,,92
+,,,,,,,76
+,,,,,,,72
+,,,,,,,86
+,,,,,,,69
+,,,,,,,61
+,,,,,,,70
+,,,,,,,89
+,,,,,,,90
+,,,,,,,93
+,,,,,,,85
+,,,,,,,100
+,,,,,,,90
+,,,,,,,66
+,,,,,,,85
+,,,,,,,89
+,,,,,,,95
+,,,,,,,84
+,,,,,,,61
+,,,,,,,80
+,,,,,,,72
+,,,,,,,89
+,,,,,,,77
+,,,,,,,96
+,,,,,,,89
+,,,,,,,99
+,,,,,,,95
+,,,,,,,97
+,,,,,,,99
+,,,,,,,74
+,,,,,,,73
+,,,,,,,97
+,,,,,,,92
+,,,,,,,74
+,,,,,,,86
+,,,,,,,75
+,,,,,,,99
+,,,,,,,100
+,,,,,,,64
+,,,,,,,97
+,,,,,,,87
+,,,,,,,69
+,,,,,,,97
+,,,,,,,83
+,,,,,,,64
+,,,,,,,97
+,,,,,,,100
+,,,,,,,81
+,,,,,,,62
+,,,,,,,73
+,,,,,,,99
+,,,,,,,76
+,,,,,,,76
+,,,,,,,91
+,,,,,,,65
+,,,,,,,90
+,,,,,,,67
+,,,,,,,74
+,,,,,,,76
+,,,,,,,66
+,,,,,,,97
+,,,,,,,68
+,,,,,,,76
+,,,,,,,76
+,,,,,,,70
+,,,,,,,95
+,,,,,,,77
+,,,,,,,85
+,,,,,,,83
+,,,,,,,76
+,,,,,,,63
+,,,,,,,79
+,,,,,,,95
+,,,,,,,100
+,,,,,,,88
+,,,,,,,93
+,,,,,,,65
+,,,,,,,70
+,,,,,,,85
+,,,,,,,72
+,,,,,,,75
+,,,,,,,93
+,,,,,,,94
+,,,,,,,67
+,,,,,,,97
+,,,,,,,71
+,,,,,,,83
+,,,,,,,99
+,,,,,,,68
+,,,,,,,99
+,,,,,,,89
+,,,,,,,74
+,,,,,,,85
+,,,,,,,89
+,,,,,,,95
+,,,,,,,87
+,,,,,,,99
+,,,,,,,66
+,,,,,,,62
+,,,,,,,77
+,,,,,,,78
+,,,,,,,65
+,,,,,,,78
+,,,,,,,65
+,,,,,,,85
+,,,,,,,98
+,,,,,,,94
+,,,,,,,65
+,,,,,,,100
+,,,,,,,65
+,,,,,,,82
+,,,,,,,100
+,,,,,,,81
+,,,,,,,70
+,,,,,,,90
+,,,,,,,87
+,,,,,,,98
+,,,,,,,73
+,,,,,,,98
+,,,,,,,66
+,,,,,,,70
+,,,,,,,72
+,,,,,,,86
+,,,,,,,86
+,,,,,,,96
+,,,,,,,69
+,,,,,,,81
+,,,,,,,92
+,,,,,,,60
+,,,,,,,89
+,,,,,,,79
+,,,,,,,97
+,,,,,,,87
+,,,,,,,94
+,,,,,,,80
+,,,,,,,95
+,,,,,,,63
+,,,,,,,96
+,,,,,,,99
+,,,,,,,62
+,,,,,,,98
+,,,,,,,70
+,,,,,,,84
+,,,,,,,67
+,,,,,,,89
+,,,,,,,73
+,,,,,,,69
+,,,,,,,86
+,,,,,,,64
+,,,,,,,77
+,,,,,,,62
+,,,,,,,86
+,,,,,,,98
+,,,,,,,70
+,,,,,,,63
+,,,,,,,63
+,,,,,,,72
+,,,,,,,61
+,,,,,,,85
+,,,,,,,73
+,,,,,,,84
+,,,,,,,71
+,,,,,,,65
+,,,,,,,81
+,,,,,,,99
+,,,,,,,77
+,,,,,,,76
+,,,,,,,75
+,,,,,,,95
+,,,,,,,74
+,,,,,,,92
+,,,,,,,88
+,,,,,,,65
+,,,,,,,84
+,,,,,,,79
+,,,,,,,73
+,,,,,,,62
+,,,,,,,85
+,,,,,,,97
+,,,,,,,69
+,,,,,,,75
+,,,,,,,96
+,,,,,,,72
+,,,,,,,98
+,,,,,,,75
+,,,,,,,72
+,,,,,,,91
+,,,,,,,90
+,,,,,,,79
+,,,,,,,90
+,,,,,,,62
+,,,,,,,100
+,,,,,,,60
+,,,,,,,86
+,,,,,,,91
+,,,,,,,86
+,,,,,,,91
+,,,,,,,75
+,,,,,,,93
+,,,,,,,73
+,,,,,,,88
+,,,,,,,62
+,,,,,,,68
+,,,,,,,63
+,,,,,,,60
+,,,,,,,64
+,,,,,,,63
+,,,,,,,79
+,,,,,,,70
+,,,,,,,75
+,,,,,,,85
+,,,,,,,80
+,,,,,,,73
+,,,,,,,98
+,,,,,,,98
+,,,,,,,74
+,,,,,,,71
+,,,,,,,82
+,,,,,,,63
+,,,,,,,100
+,,,,,,,73
+,,,,,,,100
+,,,,,,,99
+,,,,,,,68
+,,,,,,,88
+,,,,,,,80
+,,,,,,,63
+,,,,,,,60
+,,,,,,,82
+,,,,,,,93
+,,,,,,,71
+,,,,,,,73
+,,,,,,,79
+,,,,,,,65
+,,,,,,,68
+,,,,,,,73
+,,,,,,,71
+,,,,,,,87
+,,,,,,,75
+,,,,,,,91
+,,,,,,,88
+,,,,,,,63
+,,,,,,,61
+,,,,,,,72
+,,,,,,,96
+,,,,,,,73
+,,,,,,,91
+,,,,,,,100
+,,,,,,,95
+,,,,,,,66
+,,,,,,,91
+,,,,,,,95
+,,,,,,,95
+,,,,,,,76
+,,,,,,,79
+,,,,,,,62
+,,,,,,,63
+,,,,,,,84
+,,,,,,,91
+,,,,,,,65
+,,,,,,,96
+,,,,,,,62
+,,,,,,,100
+,,,,,,,84
+,,,,,,,60
+,,,,,,,79
+,,,,,,,80
+,,,,,,,79
+,,,,,,,86
+,,,,,,,82
+,,,,,,,77
+,,,,,,,90
+,,,,,,,66
+,,,,,,,74
+,,,,,,,67
+,,,,,,,88
+,,,,,,,70
+,,,,,,,78
+,,,,,,,100
+,,,,,,,60
+,,,,,,,62
+,,,,,,,67
+,,,,,,,71
+,,,,,,,79
+,,,,,,,97
+,,,,,,,91
+,,,,,,,66
+,,,,,,,68
+,,,,,,,67
+,,,,,,,61
+,,,,,,,87
+,,,,,,,99
+,,,,,,,78
+,,,,,,,76
+,,,,,,,91
+,,,,,,,86
+,,,,,,,99
+,,,,,,,92
+,,,,,,,87
+,,,,,,,68
+,,,,,,,87
+,,,,,,,77
+,,,,,,,70
+,,,,,,,86
+,,,,,,,90
+,,,,,,,82
+,,,,,,,76
+,,,,,,,77
+,,,,,,,77
+,,,,,,,90
+,,,,,,,99
+,,,,,,,68
+,,,,,,,97
+,,,,,,,80
+,,,,,,,72
+,,,,,,,65
+,,,,,,,71
+,,,,,,,82
+,,,,,,,74
+,,,,,,,84
+,,,,,,,73
+,,,,,,,95
+,,,,,,,80
+,,,,,,,86
+,,,,,,,65
+,,,,,,,66
+,,,,,,,66
+,,,,,,,88
+,,,,,,,89
+,,,,,,,83
+,,,,,,,80
+,,,,,,,100
+,,,,,,,66
+,,,,,,,78
+,,,,,,,85
+,,,,,,,86
+,,,,,,,75
+,,,,,,,99
+,,,,,,,60
+,,,,,,,70
+,,,,,,,75
+,,,,,,,90
+,,,,,,,68
+,,,,,,,97
+,,,,,,,72
+,,,,,,,94
+,,,,,,,69
+,,,,,,,74
+,,,,,,,85
+,,,,,,,74
+,,,,,,,86
+,,,,,,,90
+,,,,,,,64
+,,,,,,,92
+,,,,,,,60
+,,,,,,,72
+,,,,,,,96
+,,,,,,,95
+,,,,,,,66
+,,,,,,,85
+,,,,,,,83
+,,,,,,,71
+,,,,,,,74
+,,,,,,,84
+,,,,,,,79
+,,,,,,,87
+,,,,,,,80
+,,,,,,,81
+,,,,,,,74
+,,,,,,,83
+,,,,,,,90
+,,,,,,,95
+,,,,,,,89
+,,,,,,,90
+,,,,,,,64
+,,,,,,,82
+,,,,,,,78
+,,,,,,,98
+,,,,,,,72
+,,,,,,,72
+,,,,,,,76
+,,,,,,,97
+,,,,,,,64
+,,,,,,,98
+,,,,,,,78
+,,,,,,,67
+,,,,,,,83
+,,,,,,,78
+,,,,,,,92
+,,,,,,,71
+,,,,,,,65
+,,,,,,,70
+,,,,,,,81
+,,,,,,,81
+,,,,,,,75
+,,,,,,,61
+,,,,,,,66
+,,,,,,,98
+,,,,,,,80
+,,,,,,,68
+,,,,,,,60
+,,,,,,,61
+,,,,,,,77
+,,,,,,,68
+,,,,,,,92
+,,,,,,,70
+,,,,,,,61
+,,,,,,,86
+,,,,,,,79
+,,,,,,,88
+,,,,,,,97
+,,,,,,,65
+,,,,,,,97

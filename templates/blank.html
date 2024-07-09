@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Display</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- DataTables CSS -->
+    <link href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Data</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rank Candidates</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+    
+</head>
+
+    <title>Freshmen Applicants</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- DataTables CSS -->
+    <link href="/static/css/bootstrap.min.css.map" rel="stylesheet">
+
+    <link href="/static/css/jquery.dataTables.css" rel="stylesheet">
+    <style>
+        /* Add border to DataTable wrapper */
+        #csvData_wrapper {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        /* Pagination style */
+        #csvData_paginate {
+            margin-top: 20px;
+        }
+
+        /* Pagination buttons style */
+        #csvData_paginate .paginate_button {
+            padding: 0.5rem 0.75rem;
+            margin-left: 2px;
+            font-size: 0.875rem;
+            line-height: 1.5;
+            border-radius: 0.25rem;
+            color: #007bff;
+            background-color: #fff;
+            border-color: #007bff;
+            cursor: pointer;
+        }
+
+        /* Current page button style */
+        #csvData_paginate .paginate_button.current {
+            color: #fff;
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        /* Pagination button hover style */
+        #csvData_paginate .paginate_button:hover {
+            color: #0056b3;
+            background-color: #e9ecef;
+            border-color: #dee2e6;
+        }
+
+        /* Table layout */
+        #csvData {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        #csvData thead th,
+        #csvData tbody td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+
+        #csvData thead th {
+            background-color: #f8f9fa;
+        }
+
+        #csvData tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #csvData tbody tr:hover {
+            background-color: #e2e6ea;
+        }
+    </style>
+
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">CART <sup></sup></div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            
+
+            
+
+            
+           
+
+            
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Move the following list item to the left -->
+                        <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                        <li class="nav-item dropdown no-arrow d-sm-none">
+                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-search fa-fw"></i>
+                            </a>
+                            <!-- Dropdown - Messages -->
+                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                                aria-labelledby="searchDropdown">
+                                <form class="form-inline mr-auto w-100 navbar-search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control bg-light border-0 small"
+                                            placeholder="Search for..." aria-label="Search"
+                                            aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button">
+                                                <i class="fas fa-search fa-sm"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- Add the following list item to the right -->
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-success ml-1" onclick="importCSV()">
+                                Load Data
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-danger ml-1 mr-1" id="cleanDataBtn">
+                                Clean Data
+                            </button>
+                        </li>
+                        <!-- Add the following list item between Clean Data and Add Student buttons -->
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-primary mr-1" onclick="window.location.href='/train.html';">
+                                Train Data
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#addStudentModal">Add Student</button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-danger ml-1" onclick="window.location.href='/rank_candidates'">
+                                Rank Candidates by Course
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-danger ml-1" onclick="openPassedApplicants()">
+                                View Passed Applicants
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-danger ml-1" onclick="openfailedApplicants()">
+                                View Failed Applicants
+                            </button>
+                        </li>
+                    </ul>
+
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+                    <!-- Container to display CSV data -->
+                    
+    <table id="csvTable">
+        <!-- CSV data will be inserted here dynamically -->
+    </table>
+
+    <script>
+        $(document).ready(function(){
+            $.get('/load_data_csv', function(data){
+                var rows = data.split('\n');
+                var table = $('#csvTable');
+                $.each(rows, function(rowIndex, rowData){
+                    if (rowData) {
+                        var cells = rowData.split(',');
+                        if (rowIndex === 0) {
+                            var header = '<tr>';
+                            $.each(cells, function(cellIndex, cellData){
+                                header += '<th>' + cellData.trim() + '</th>';
+                            });
+                            header += '</tr>';
+                            table.append(header);
+                        } else {
+                            var row = '<tr>';
+                            $.each(cells, function(cellIndex, cellData){
+                                row += '<td>' + cellData.trim() + '</td>';
+                            });
+                            row += '</tr>';
+                            table.append(row);
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+                    <div id="csvData"></div>
+                </div>
+
+            </div>
+            <!-- End of Main Content -->
+            
+
+            <!-- Modal -->
+            
+        
+            <!-- End of Modal -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+        
+
+    </div>
+    <!-- End of Page Wrapper -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+    <!-- DataTables JavaScript -->
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
+
+    <script>
+        function importCSV() {
+            // Create an input element
+            var input = document.createElement('input');
+            input.type = 'file';
+            input.accept = '.csv';
+    
+            // Add event listener for when file is selected
+            input.onchange = function(event) {
+                var file = event.target.files[0];
+                var reader = new FileReader();
+    
+                // Event listener for when file reading is complete
+                reader.onload = function() {
+                    var csv = reader.result;
+                    // Display CSV data
+                    displayCSV(csv);
+                };
+    
+                // Read the file as text
+                reader.readAsText(file);
+            };
+    
+            // Click the input element to trigger file selection dialog
+            input.click();
+        }
+    
+        function displayCSV(csv) {
+            // Split CSV by lines
+            var rows = csv.split('\n');
+            var csvDataElement = document.getElementById('csvData');
+    
+            // Clear any existing data
+            csvDataElement.innerHTML = '';
+    
+            // Loop through each row and create a table
+            var table = document.createElement('table');
+            table.classList.add('table');
+            var thead = document.createElement('thead');
+            var tbody = document.createElement('tbody');
+    
+            // Create table headers
+            var headers = rows[0].split(',');
+            var headerRow = document.createElement('tr');
+            headers.forEach(function(header) {
+                var th = document.createElement('th');
+                th.textContent = header;
+                headerRow.appendChild(th);
+            });
+            thead.appendChild(headerRow);
+            table.appendChild(thead);
+    
+            // Create table rows
+            for (var i = 1; i < rows.length; i++) {
+                var cells = rows[i].split(',');
+                var row = document.createElement('tr');
+                cells.forEach(function(cell) {
+                    var td = document.createElement('td');
+                    td.textContent = cell;
+                    row.appendChild(td);
+                });
+                tbody.appendChild(row);
+            }
+            table.appendChild(tbody);
+    
+            // Append table to CSV data element
+            csvDataElement.appendChild(table);
+        }
+    
+        function cleanData() {
+            // Clear CSV data and remove from display
+            csvData = [];
+            currentPage = 0;
+            var csvDataElement = document.getElementById('csvData');
+            if (csvDataElement) {
+                csvDataElement.innerHTML = '';        
+                // Add display message
+                var messageElement = document.createElement('div');
+                messageElement.textContent = 'Data Cleaned';
+                csvDataElement.appendChild(messageElement);
+            } else {
+                messageElement.textContent = "Element with id 'csvData' not found.";
+            }
+        }
+    </script>
+
+    <script>
+        // Function to trigger data cleaning API request
+        function clean_data() {
+            // Make a GET request to the Flask API
+            fetch('/clean-data')
+                .then(response => response.json())
+                .then(data => {
+                    // Handle the cleaned data here (if needed)
+                    console.log(data);
+                    alert('Data cleaned successfully!');
+                })
+                .catch(error => {
+                    console.error('Error cleaning data:', error);
+                    alert('Error cleaning data. Please try again.');
+                });
+        }
+    </script>
+    <script>
+        $(document).ready(function() {
+            // Function to handle the click event on the cleanDataBtn button
+            $("#cleanDataBtn").click(function() {
+                $.ajax({
+                    type: "POST",
+                    url: "/clean_data",
+                    success: function(response) {
+                        alert(response.message); // Show success message
+                        displayCleanedData(response.cleaned_data); // Display cleaned data
+                        location.reload(); // Reload the page
+                    },
+                    error: function(xhr, status, error) {
+                        alert("Cleaning Successful"); // Show error message
+                    }
+                });
+            });
+        });
+    </script>
+
+    <script>
+        function openPassedApplicants() {
+            window.location.href = "/passed_applicants";
+        }
+    </script>
+    <script>
+        function openfailedApplicants() {
+            window.location.href = "/failed_applicants";
+        }
+    </script>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Add Student Modal -->
+<<div class="modal fade" id="addStudentModal" tabindex="-1" role="dialog" aria-labelledby="addStudentModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addStudentModalLabel">Add Student</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="studentForm">
+                    <div class="form-group">
+                        <label for="Name">Name:</label>
+                        <input type="text" class="form-control" id="Name" name="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="University">University:</label>
+                        <input type="text" class="form-control" id="University" name="University">
+                    </div>
+                    <div class="form-group">
+                        <label for="PhysicalFitnessTest">Physical Fitness Test:</label>
+                        <input type="text" class="form-control" id="PhysicalFitnessTest" name="Physical Fitness Test">
+                    </div>
+                    <div class="form-group">
+                        <label for="EntranceExam">Entrance Exam:</label>
+                        <input type="text" class="form-control" id="EntranceExam" name="EntranceExam">
+                    </div>
+                    <div class="form-group">
+                        <label for="FirstChosenProgram">First Chosen Program:</label>
+                        <input type="text" class="form-control" id="FirstChosenProgram" name="FirstChosenProgram">
+                    </div>
+                    <div class="form-group">
+                        <label for="SecondChosenProgram">Second Chosen Program:</label>
+                        <input type="text" class="form-control" id="SecondChosenProgram" name="SecondChosenProgram">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" onclick="submitStudent()">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        function submitStudent() {
+            // Get form data
+            var formData = {
+                Name: $('#Name').val(),
+                University: $('#University').val(),
+                'Physical Fitness Test': $('#PhysicalFitnessTest').val(),
+                'Entrance Exam': $('#EntranceExam').val(),
+                'First Chosen Program': $('#FirstChosenProgram').val(),
+                'Second Chosen Program': $('#SecondChosenProgram').val(),
+                Interview: $('#Interview').val(),
+            };
+        
+            // AJAX POST request to add student data
+            $.ajax({
+                type: 'POST',
+                url: '/add-student',
+                data: JSON.stringify(formData),
+                contentType: 'application/json',
+                success: function(response) {
+                    alert(response.message);
+                    // Optionally, clear the form after successful submission
+                    $('#studentForm').trigger('reset');
+                },
+                error: function(xhr, status, error) {
+                    alert('Error adding student. Please try again.');
+                }
+            });
+        }
+        <!-- Include necessary scripts -->
+        <!-- Bootstrap core JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+        <!-- DataTables JavaScript -->
+        <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    
+        <script>
+            function loadData() {
+                $.ajax({
+                    url: "/load_data_csv",
+                    type: "GET",
+                    success: function(data) {
+                        let lines = data.split('\n');
+                        let headers = lines[0].split(',');
+        
+                        let dataSet = [];
+        
+                        // Populate table body
+                        for (let i = 1; i < lines.length; i++) {
+                            let row = lines[i].split(',');
+                            dataSet.push(row);
+                        }
+        
+                        // Initialize DataTable
+                        $('#csvDataTable').DataTable({
+                            data: dataSet,
+                            columns: headers.map(header => ({ title: header }))
+                        });
+                    },
+                    error: function(xhr, status, error) {
+                        console.error(xhr.responseText);
+                    }
+                });
+            }
+        
+            $(document).ready(function() {
+                loadData(); // Trigger the function when the page is loaded
+            });
+        </script>
+
+
+        <script>
+            function submitStudent() {
+                // Get form data
+                var formData = {
+                    Name: $('#Name').val(),
+                    University: $('#University').val(),
+                    'Physical Fitness Test': $('#PhysicalFitnessTest').val(),
+                    'Entrance Exam': $('#EntranceExam').val(),
+                    'First Chosen Program': $('#FirstChosenProgram').val(),
+                    'Second Chosen Program': $('#SecondChosenProgram').val(),
+                    Interview: $('#Interview').val(),
+                };
+            
+                // AJAX POST request to add student data
+                $.ajax({
+                    type: 'POST',
+                    url: '/add-student',
+                    data: JSON.stringify(formData),
+                    contentType: 'application/json',
+                    success: function(response) {
+                        alert(response.message);
+                        // Optionally, clear the form after successful submission
+                        $('#studentForm').trigger('reset');
+                    },
+                    error: function(xhr, status, error) {
+                        alert('Error adding student. Please try again.');
+                    }
+                });
+            }
+        </script>
+        
+        <script>
+            function openPassedApplicants() {
+                window.location.href = "/passed_applicants";
+            }
+        </script>
+        <script>
+            function openfailedApplicants() {
+                window.location.href = "/failed_applicants";
+            }
+        </script>
+
+        
+</body>
+
+<script type="text/javascript" src="{{url_for('static', filename='js/jquery-3.2.1.min.js')}}"></script>
+<script type="text/javascript" src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+<script src="{{ url_for('static', filename='js/jquery.dataTables.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+
+
+</html>
